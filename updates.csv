@@ -1,4 +1,9 @@
 date;region;route;root;description
+2026-10-26;(China) Jilin;G1112;chnjl.g1112;Split at both Liaoning borders into Ji'an and Siping segments with the intervening section moved to CHN-LN
+2026-10-26;(China) Jilin;G1112 (Siping);chnjl.g1112sip;Siping section split from the original CHN-JL G1112 file
+2026-10-26;(China) Liaoning;G1112;chnln.g1112;Intervening Liaoning section split from CHN-JL G1112
+2026-10-26;(China) Jilin;G9111;chnjl.g9111;Route reassigned from CHN-LN to CHN-JL with updated waypoints
+2026-10-26;(China) Liaoning;G9111;chnln.g9111;Misassigned duplicate removed and replaced by CHN-JL G9111
 2025-05-09;(China) Guangdong;Rt10;chngd.rt010;HKG Rt 10 extended to Guangdong to milepost 0.
 2025-05-09;Hong Kong;Rt6;hkg.rt006w;Rt 6, Central Kowloon Bypass (Yau Ma Tei Section) added
 2025-04-19;Albania;SH45;alb.sh045;Route truncated at west end from SH6 to SH50 (SH50 now)
