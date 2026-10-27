@@ -19,12 +19,12 @@ Zho http://www.openstreetmap.org/?lat=36.516466&lon=102.046165
 G0612 http://www.openstreetmap.org/?lat=36.521691&lon=102.019601
 S305 http://www.openstreetmap.org/?lat=36.541165&lon=101.971782
 KunRd http://www.openstreetmap.org/?lat=36.566392&lon=101.898794
-803 http://www.openstreetmap.org/?lat=36.583968&lon=101.856136
+803 +S101 http://www.openstreetmap.org/?lat=36.583968&lon=101.856136
 Rai http://www.openstreetmap.org/?lat=36.615381&lon=101.823263
 797 http://www.openstreetmap.org/?lat=36.626283&lon=101.809959
 813 http://www.openstreetmap.org/?lat=36.641220&lon=101.777601
 S1113 http://www.openstreetmap.org/?lat=36.646420&lon=101.774339
-G0611 http://www.openstreetmap.org/?lat=36.669830&lon=101.768632
+G0611 +S20 http://www.openstreetmap.org/?lat=36.669830&lon=101.768632
 +X848186 http://www.openstreetmap.org/?lat=36.669418&lon=101.771636
 +X906731 http://www.openstreetmap.org/?lat=36.666732&lon=101.771207
 819 http://www.openstreetmap.org/?lat=36.665114&lon=101.741166
@@ -79,7 +79,7 @@ S103_Duo http://www.openstreetmap.org/?lat=36.658505&lon=101.498909
 +X538570 http://www.openstreetmap.org/?lat=36.721962&lon=99.243622
 G109_ChaE http://www.openstreetmap.org/?lat=36.788116&lon=99.116249
 ChaSvcCen http://www.openstreetmap.org/?lat=36.802258&lon=99.082561
-2095 http://www.openstreetmap.org/?lat=36.801863&lon=99.064064
+2095 +S63 http://www.openstreetmap.org/?lat=36.801863&lon=99.064064
 G109_ChaW http://www.openstreetmap.org/?lat=36.792790&lon=99.039173
 +X843132 http://www.openstreetmap.org/?lat=36.761355&lon=98.911757
 +X509529 http://www.openstreetmap.org/?lat=36.712871&lon=98.875097
