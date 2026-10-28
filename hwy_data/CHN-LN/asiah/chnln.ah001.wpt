@@ -45,7 +45,7 @@ G9111 http://www.openstreetmap.org/?lat=41.339200&lon=123.811500
 166(G1113) http://www.openstreetmap.org/?lat=41.365472&lon=123.812227
 167(G1113) http://www.openstreetmap.org/?lat=41.375295&lon=123.798645
 174(G1113) http://www.openstreetmap.org/?lat=41.419946&lon=123.748884
-X502 http://www.openstreetmap.org/?lat=41.459678&lon=123.725667
+180(G1113) http://www.openstreetmap.org/?lat=41.459678&lon=123.725667
 185(G1113) http://www.openstreetmap.org/?lat=41.500157&lon=123.693609
 +X426765 http://www.openstreetmap.org/?lat=41.522780&lon=123.691120
 194(G1113) http://www.openstreetmap.org/?lat=41.562353&lon=123.631124
