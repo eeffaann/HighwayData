@@ -5,7 +5,7 @@ G45 http://www.openstreetmap.org/?lat=36.385636&lon=115.095348
 G230 http://www.openstreetmap.org/?lat=36.401976&lon=114.977460
 S313 http://www.openstreetmap.org/?lat=36.401942&lon=114.827213
 ChengAn http://www.openstreetmap.org/?lat=36.412165&lon=114.665937
-S2201_E http://www.openstreetmap.org/?lat=36.436959&lon=114.591866
+S2201_E http://www.openstreetmap.org/?lat=36.432160&lon=114.584383
 +X651361 http://www.openstreetmap.org/?lat=36.422180&lon=114.549894
 G4 http://www.openstreetmap.org/?lat=36.426255&lon=114.438057
 +X861922 http://www.openstreetmap.org/?lat=36.439583&lon=114.373083
@@ -19,7 +19,7 @@ S222 http://www.openstreetmap.org/?lat=36.569218&lon=114.100142
 +X206112 http://www.openstreetmap.org/?lat=36.587966&lon=114.041948
 +X458957 http://www.openstreetmap.org/?lat=36.606020&lon=113.986073
 +X227612 http://www.openstreetmap.org/?lat=36.619868&lon=113.974657
-TaiXingShanExpy http://www.openstreetmap.org/?lat=36.635917&lon=113.913288
+S75 +TaiXingShanExpy http://www.openstreetmap.org/?lat=36.635917&lon=113.913288
 678 http://www.openstreetmap.org/?lat=36.644388&lon=113.888397
 +X440010 http://www.openstreetmap.org/?lat=36.644870&lon=113.819304
 +X699266 http://www.openstreetmap.org/?lat=36.627652&lon=113.793726

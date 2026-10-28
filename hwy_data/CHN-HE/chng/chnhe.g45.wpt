@@ -30,15 +30,15 @@ BaiBraLine http://www.openstreetmap.org/?lat=38.946727&lon=116.218186
 SheConLine http://www.openstreetmap.org/?lat=38.034301&lon=115.683117
 G1811 http://www.openstreetmap.org/?lat=37.988451&lon=115.690413
 +X110834 http://www.openstreetmap.org/?lat=37.877021&lon=115.701656
-S282 http://www.openstreetmap.org/?lat=37.790252&lon=115.691357
+S30 +S282 http://www.openstreetmap.org/?lat=37.790252&lon=115.691357
 S040 http://www.openstreetmap.org/?lat=37.752665&lon=115.757446
 G106_Fuy http://www.openstreetmap.org/?lat=37.729317&lon=115.786114
-S076 http://www.openstreetmap.org/?lat=37.723954&lon=115.795469
+S78/S86 +S076 http://www.openstreetmap.org/?lat=37.723954&lon=115.795469
 +X417757 http://www.openstreetmap.org/?lat=37.709899&lon=115.798130
 +X613685 http://www.openstreetmap.org/?lat=37.654199&lon=115.776501
 Z213 http://www.openstreetmap.org/?lat=37.603760&lon=115.731525
 S393 http://www.openstreetmap.org/?lat=37.525792&lon=115.656681
-XinExpy http://www.openstreetmap.org/?lat=37.465594&lon=115.619602
+S30Hen +XinExpy http://www.openstreetmap.org/?lat=37.468150&lon=115.620689
 +X961949 http://www.openstreetmap.org/?lat=37.365109&lon=115.565014
 S324 http://www.openstreetmap.org/?lat=37.315431&lon=115.553856
 +X125138 http://www.openstreetmap.org/?lat=37.258342&lon=115.518150
