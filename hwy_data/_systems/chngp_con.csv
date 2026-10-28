@@ -1,0 +1,198 @@
+systemName;route;banner;groupName;roots
+chngp;G1;;Hebei (Xianghe);chnhe.g01xia
+chngp;G1;;Hebei - Heilongjiang;chnhe.g01,chnln.g01,chnjl.g01,chnhl.g01
+chngp;G2;;Hebei (Langfang);chnhe.g02lan
+chngp;G2;;Hebei - Jiangsu;chnhe.g02,chnsd.g02,chnjs.g02
+chngp;G3;;Hebei - Fujian;chnhe.g03,chnsd.g03,chnjs.g03,chnah.g03,chnzj.g03,chnfj.g03
+chngp;G4;;Hebei - Guangdong;chnhe.g04,chnha.g04,chnhb.g04,chnhn.g04,chngd.g04
+chngp;G5;;Hebei - Yunnan;chnhe.g05,chnsx.g05,chnsn.g05,chnsc.g05,chnyn.g05
+chngp;G6;;Hebei - Qinghai;chnhe.g06,chnnm.g06,chnnx.g06,chngs.g06,chnqh.g06
+chngp;G6;;Tibet;chnxz.g06
+chngp;G7;;Hebei - Xinjiang;chnhe.g07,chnsx.g07,chnnm.g07,chngs.g07,chnxj.g07
+chngp;G10;;;chnhl.g10,chnnm.g10
+chngp;G11;;;chnln.g11,chnjl.g11,chnhl.g11
+chngp;G12;;;chnjl.g12,chnnm.g12
+chngp;G15;;Liaoning;chnln.g15
+chngp;G15;;Hainan;chnhi.g15
+chngp;G15;;Shandong - Jiangsu;chnsd.g15,chnjs.g15
+chngp;G15;;Zhejiang - Guangdong;chnzj.g15,chnfj.g15,chngd.g15
+chngp;G16;;;chnln.g16,chnnm.g16sij,chnln.g16jia,chnnm.g16
+chngp;G18;;Shandong - Hebei;chnsd.g18,chnhe.g18hua
+chngp;G18;;Hebei - Inner Mongolia;chnhe.g18,chnsx.g18,chnnm.g18
+chngp;G20;;;chnsd.g20,chnhe.g20,chnsx.g20,chnsn.g20,chnnx.g20
+chngp;G22;;;chnsd.g22,chnhe.g22,chnsx.g22,chnsn.g22,chngs.g22,chnnx.g22,chngs.g22din
+chngp;G25;;Jilin - Hebei;chnjl.g25,chnnm.g25,chnln.g25,chnhe.g25
+chngp;G25;;Hebei - Guangdong;chnhe.g25hua,chnsd.g25,chnjs.g25,chnah.g25,chnjs.g25nan,chnzj.g25,chnfj.g25,chngd.g25
+chngp;G30;;;chnjs.g30,chnah.g30,chnha.g30,chnsn.g30,chngs.g30,chnxj.g30
+chngp;G35;;;chnsd.g35,chnha.g35,chnah.g35,chnjx.g35,chngd.g35
+chngp;G36;;;chnjs.g36,chnah.g36,chnha.g36
+chngp;G40;;Jiangsu - Shaanxi;chnjs.g40,chnah.g40,chnha.g40,chnsn.g40
+chngp;G42;;Jiangsu - Sichuan;chnjs.g42,chnah.g42,chnhb.g42,chncq.g42,chnsc.g42
+chngp;G45;;Heilongjiang - Hebei;chnhl.g45,chnjl.g45,chnnm.g45,chnhe.g45che
+chngp;G45;;Hebei - Guangdong;chnhe.g45,chnha.g45,chnhb.g45,chnjx.g45,chngd.g45
+chngp;G50;;Jiangsu - Chongqing;chnjs.g50,chnzj.g50,chnah.g50,chnhb.g50,chncq.g50
+chngp;G55;;;chnnm.g55,chnsx.g55,chnha.g55,chnhb.g55,chnhn.g55,chngd.g55
+chngp;G56;;;chnzj.g56,chnah.g56,chnjx.g56,chnhb.g56,chnhn.g56,chngz.g56,chnyn.g56
+chngp;G59;;Inner Mongolia;chnnm.g59
+chngp;G59;;SX;chnsx.g59
+chngp;G59;;HA;chnha.g59
+chngp;G59;;Hubei;chnhb.g59
+chngp;G60;;Zhejiang - Yunnan;chnzj.g60,chnjx.g60,chnhn.g60,chngz.g60,chnyn.g60
+chngp;G65;;;chnnm.g65,chnsn.g65,chnsc.g65,chncq.g65,chnhn.g65,chngx.g65,chngd.g65
+chngp;G69;;;chnnx.g69,chngs.g69,chnsn.g69,chncq.g69,chngz.g69,chngx.g69
+chngp;G70;;;chnfj.g70,chnjx.g70,chnhb.g70,chnsn.g70,chngs.g70,chnnx.g70
+chngp;G72;;;chnfj.g72,chnjx.g72,chnhn.g72,chngx.g72
+chngp;G75;;Mainland;chngs.g75,chnsc.g75,chncq.g75,chngz.g75,chngx.g75,chngd.g75
+chngp;G75;;Hainan;chnhi.g75
+chngp;G76;;;chnfj.g76,chnjx.g76,chnhn.g76,chngx.g76,chngz.g76,chnsc.g76
+chngp;G78;;Liuzhou;chngd.g78,chngx.g78
+chngp;G78;;Baise;chngx.g78bai,chngz.g78
+chngp;G78;;Qujing;chnyn.g78quj
+chngp;G78;;Kunming;chnyn.g78
+chngp;G80;;;chngd.g80,chngx.g80,chnyn.g80
+chngp;G85;;NX;chnnx.g85
+chngp;G85;;SN;chnsn.g85
+chngp;G85;;;chncq.g85,chnsc.g85,chnyn.g85
+chngp;G91;;;chnln.g91
+chngp;G92;;Zhejiang;chnzj.g92
+chngp;G93;;;chnsc.g93,chncq.g93
+chngp;G94;;;chngd.g94
+chngp;G95;;Hebei (Sanhe);chnhe.g95san
+chngp;G95;;Hebei (Guyuan);chnhe.g95
+chngp;G98;;;chnhi.g98
+chngp;G2501;;;chnjl.g2501
+chngp;G0111;;Hebei (Laoting);chnhe.g0111
+chngp;G0111;;Hebei (Bohai);chnhe.g0111boh
+chngp;G0121;;Hebei (Sanhe);chnhe.g0121
+chngp;G0121;;Hebei (Dongxinhuang);chnhe.g0121don
+chngp;G0211;;Hebei;chnhe.g0211
+chngp;G0321;;Shandong - Anhui;chnsd.g0321,chnha.g0321pu,chnsd.g0321he,chnah.g0321su,chnha.g0321,chnah.g0321
+chngp;G0401;;;chnhn.g0401
+chngp;G0421;;HB;chnhb.g0421
+chngp;G0421;;GD;chngd.g0421
+chngp;G0422;;;chngd.g0422
+chngp;G0423;;;chngd.g0423
+chngp;G0425;;;chngd.g0425
+chngp;G0512;;;chnsc.g0512
+chngp;G0521;;;chnsc.g0521
+chngp;G5901;;;chnnm.g5901
+chngp;G0613;;;chnqh.g0613
+chngp;G1001;;;chnhl.g1001
+chngp;G1011;;;chnhl.g1011
+chngp;G1012;;;chnhl.g1012
+chngp;G1013;;;chnnm.g1013,chnhe.g1013
+chngp;G1015;;;chnjl.g1015
+chngp;G1111;;;chnhl.g1111
+chngp;G1112;;;chnjl.g1112,chnln.g1112,chnjl.g1112sip
+chngp;G1113;;;chnln.g1113
+chngp;G1117;;;chnhl.g1117
+chngp;G1131;;;chnjl.g1131
+chngp;G1211;;;chnjl.g1211
+chngp;G1211;;;chnhl.g1211
+chngp;G1212;;;chnln.g1212,chnjl.g1212
+chngp;G1213;;;chnhl.g1213
+chngp;G1215;;;chnjl.g1215
+chngp;G1221;;;chnjl.g1221
+chngp;G1501;;;chnln.g1501
+chngp;G1502;;;chnfj.g1502
+chngp;G1503;;Jiangsu;chnjs.g1503
+chngp;G1504;;;chnzj.g1504
+chngp;G1505;;;chnfj.g1505
+chngp;G1508;;;chngd.g1508
+chngp;G1511;;;chnsd.g1511,chnha.g1511
+chngp;G1512;;;chnzj.g1512
+chngp;G1513;;;chnzj.g1513
+chngp;G1514;;;chnjx.g1514,chnfj.g1514
+chngp;G1517;;;chnfj.g1517
+chngp;G1522;;;chnjs.g1522,chnzj.g1522
+chngp;G1523;;;chnfj.g1523,chngd.g1523
+chngp;G1532;;;chngd.g1532
+chngp;G1535;;;chngd.g1535
+chngp;G1611;;;chnhe.g1611
+chngp;G1811;;;chnhe.g1811
+chngp;G1812;;;chnhe.g1812
+chngp;G1816;;Otog;chnnm.g1816
+chngp;G1816;;Ningxia;chnnx.g1816
+chngp;G1817;;Wusitai;chnnm.g1817wus
+chngp;G1817;;Alxa;chnnm.g1817,chnnx.g1817
+chngp;G2001;;;chnsd.g2001
+chngp;G2002;;;chnhe.g2002
+chngp;G2003;;;chnsx.g2003
+chngp;G2004;;;chnnx.g2004
+chngp;G2011;;;chnsd.g2011
+chngp;G2012;;;chnnx.g2012,chngs.g2012
+chngp;G2211;;;chnsn.g2211
+chngp;G2503;;;chnjs.g2503
+chngp;G2504;;;chnzj.g2504
+chngp;G2511;;;chnnm.g2511,chnln.g2511
+chngp;G2512;;;chnln.g2512
+chngp;G2513;;;chnjs.g2513
+chngp;G2516;;;chnsd.g2516,chnhe.g2516,chnsx.g2516
+chngp;G2518;;;chngd.g2518,chngx.g2518
+chngp;G3001;;;chnha.g3001
+chngp;G3002;;;chnsn.g3002
+chngp;G3003;;;chnxj.g3003
+chngp;G3011;;;chngs.g3011,chnqh.g3011
+chngp;G3012;;;chnxj.g3012
+chngp;G3013;;;chnxj.g3013
+chngp;G3014;;;chnxj.g3014
+chngp;G3015;;;chnxj.g3015
+chngp;G3016;;;chnxj.g3016
+chngp;G3017;;;chngs.g3017
+chngp;G3018;;;chnxj.g3018
+chngp;G3021;;;chnsn.g3021
+chngp;G3024;;;chnsn.g3024
+chngp;G3511;;;chnsn.g3511
+chngp;G4001;;;chnah.g4001
+chngp;G4011;;;chnjs.g4011
+chngp;G4201;;;chnhb.g4201
+chngp;G4202;;;chnsc.g4202
+chngp;G4211;;;chnjs.g4211,chnah.g4211
+chngp;G4212;;;chnah.g4212
+chngp;G4213;;Suizhou;chnhb.g4213
+chngp;G4213;;Fangxian;chnhb.g4213fan,chnsn.g4213
+chngp;G4215;;;chnsc.g4215,chngz.g4215
+chngp;G4216;;;chnsc.g4216,chnyn.g4216
+chngp;G4218;;Sichuan;chnsc.g4218
+chngp;G4218;;Nyingchi - Lhasa;chnxz.g4218nyi
+chngp;G4218;;Shigatse - Lhasa;chnxz.g4218shi
+chngp;G4219;;;chnxz.g4219
+chngp;G4511;;;chnjx.g4511,chngd.g4511
+chngp;G4512;;;chnhl.g4512,chnjl.g4512
+chngp;G4513;;;chnln.g4513
+chngp;G4515;;;chnnm.g4515
+chngp;G5001;;;chncq.g5001
+chngp;G5011;;;chnah.g5011
+chngp;G5012;;;chnsc.g5012
+chngp;G5013;;;chncq.g5013
+chngp;G5021;;;chncq.g5021
+chngp;G5511;;;chnnm.g5511
+chngp;G5512;;;chnsx.g5512,chnha.g5512
+chngp;G5513;;;chnhn.g5513
+chngp;G5515;;;chnsc.g5515
+chngp;G5516;;;chnnm.g5516,chnhe.g5516
+chngp;G5601;;;chnyn.g5601
+chngp;G5611;;;chnyn.g5611
+chngp;G6001;;;chnjx.g6001
+chngp;G6002;;;chngz.g6002
+chngp;G6011;;;chngd.g6011
+chngp;G6522;;;chnsn.g6522
+chngp;G6911;;;chnhb.g6911
+chngp;G7011;;;chnhb.g7011,chnsn.g7011,chngs.g7011
+chngp;G7201;;;chngx.g7201
+chngp;G7211;;;chngx.g7211
+chngp;G7511;;;chngx.g7511
+chngp;G7611;;;chngz.g7611
+chngp;G7612;;;chngz.g7612
+chngp;G8011;;;chnyn.g8011
+chngp;G8511;;;chnyn.g8511
+chngp;G8513;;;chngs.g8513
+chngp;G8515;;;chnsc.g8515,chncq.g8515,chnsc.g8515lu
+chngp;G9111;;;chnjl.g9111
+chngp;G9211;;;chnzj.g9211
+chngp;G9411;;;chngd.g9411
+chngp;G9511;;;chnhe.g9511
+chngp;G9811;;;chnhi.g9811
+chngp;G9812;;;chnhi.g9812
+chngp;G9813;;;chnhi.g9813
+chngp;G9902;;;chnjl.g9902

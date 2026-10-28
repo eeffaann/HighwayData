@@ -77,6 +77,7 @@ chea;CHE;Switzerland Autobahnen / Autoroutes;TMblue;1;active
 chesf;CHE;Switzerland Select Named Freeways;TMteal;2;active
 cheh;CHE;Switzerland Hauptstrassen;TMlightsalmon;4;active
 chegts;CHE;Switzerland Grand Tour of Switzerland;TMbrown;5;active
+chng;CHN;China National Expressways;TMblue;1;active
 chnshs;CHN;Shanghai Provincial Expressways;TMyellow;2;active
 cism;ASI;Central Asian Magistral;TMlightsalmon;4;active
 cisa;ASI;Central Asian doroga nacional'nogo znacenija;TMlightsalmon;4;active
@@ -516,7 +517,7 @@ cannl;CAN;Newfoundland and Labrador Provincial Highways;TMpurple;4;preview
 canons;CAN;Ontario Secondary Highways;TMyellow;5;preview
 chlrn;CHL;Chile Rutas Nacionales;TMred;2;preview
 chlsf;CHL;Chile Select Freeways;TMteal;3;preview
-chng;CHN;China National Expressways;TMblue;1;preview
+chngp;CHN;China National Expressways (Preview);TMblue;1;preview
 chnah;CHN;China UNESCAP Asian Highways;TMred;3;preview
 chnsf;CHN;China Select Freeways;TMyellow;2;preview
 chnbjs;CHN;Beijing Provincial Expressways;TMyellow;2;active
