@@ -11,6 +11,7 @@ Min http://www.openstreetmap.org/?lat=36.332552&lon=102.783794
 +X828253 http://www.openstreetmap.org/?lat=36.456360&lon=102.501068
 G213 http://www.openstreetmap.org/?lat=36.468121&lon=102.427232
 738 http://www.openstreetmap.org/?lat=36.468923&lon=102.403393
+Led_W http://www.openstreetmap.org/?lat=36.483079&lon=102.321858
 +X875377 http://www.openstreetmap.org/?lat=36.487143&lon=102.273273
 +X242170 http://www.openstreetmap.org/?lat=36.478034&lon=102.230701
 S202 http://www.openstreetmap.org/?lat=36.512878&lon=102.101183
@@ -24,7 +25,7 @@ Rai http://www.openstreetmap.org/?lat=36.615381&lon=101.823263
 797 http://www.openstreetmap.org/?lat=36.626283&lon=101.809959
 813 http://www.openstreetmap.org/?lat=36.641220&lon=101.777601
 S1113 http://www.openstreetmap.org/?lat=36.646420&lon=101.774339
-G0611 http://www.openstreetmap.org/?lat=36.669830&lon=101.768632
+817(G6) http://www.openstreetmap.org/?lat=36.669830&lon=101.768632
 +X848186 http://www.openstreetmap.org/?lat=36.669418&lon=101.771636
 +X906731 http://www.openstreetmap.org/?lat=36.666732&lon=101.771207
 819 http://www.openstreetmap.org/?lat=36.665114&lon=101.741166
@@ -32,7 +33,6 @@ G0611 http://www.openstreetmap.org/?lat=36.669830&lon=101.768632
 +X640730 http://www.openstreetmap.org/?lat=36.676749&lon=101.611691
 S103_Sha http://www.openstreetmap.org/?lat=36.664150&lon=101.598129
 S103_Duo http://www.openstreetmap.org/?lat=36.658505&lon=101.498909
-+X390266 http://www.openstreetmap.org/?lat=36.662773&lon=101.466208
 835 http://www.openstreetmap.org/?lat=36.658505&lon=101.442175
 +X157320 http://www.openstreetmap.org/?lat=36.669107&lon=101.424494
 +X764187 http://www.openstreetmap.org/?lat=36.674684&lon=101.370592
@@ -58,7 +58,7 @@ S103_Duo http://www.openstreetmap.org/?lat=36.658505&lon=101.498909
 +X139957 http://www.openstreetmap.org/?lat=36.352186&lon=100.701198
 1935 http://www.openstreetmap.org/?lat=36.312082&lon=100.644722
 1939 http://www.openstreetmap.org/?lat=36.312774&lon=100.606098
-1941 http://www.openstreetmap.org/?lat=36.317753&lon=100.555115
+1941 http://www.openstreetmap.org/?lat=36.318078&lon=100.555097
 +X882924 http://www.openstreetmap.org/?lat=36.315540&lon=100.492115
 +X989143 http://www.openstreetmap.org/?lat=36.331583&lon=100.380363
 +X994825 http://www.openstreetmap.org/?lat=36.352324&lon=100.324745
@@ -69,7 +69,6 @@ S103_Duo http://www.openstreetmap.org/?lat=36.658505&lon=101.498909
 +X740217 http://www.openstreetmap.org/?lat=36.448766&lon=99.862118
 +X618671 http://www.openstreetmap.org/?lat=36.443657&lon=99.837571
 +X695919 http://www.openstreetmap.org/?lat=36.456636&lon=99.785729
-+X436144 http://www.openstreetmap.org/?lat=36.470994&lon=99.762383
 +X207410 http://www.openstreetmap.org/?lat=36.546743&lon=99.616642
 +X593032 http://www.openstreetmap.org/?lat=36.559980&lon=99.530125
 +X569815 http://www.openstreetmap.org/?lat=36.612772&lon=99.471588
@@ -87,7 +86,6 @@ G109_ChaW http://www.openstreetmap.org/?lat=36.792790&lon=99.039173
 +X536715 http://www.openstreetmap.org/?lat=36.713293&lon=98.825873
 +X253129 http://www.openstreetmap.org/?lat=36.705664&lon=98.789738
 +X653734 http://www.openstreetmap.org/?lat=36.608345&lon=98.744913
-+X986336 http://www.openstreetmap.org/?lat=36.599353&lon=98.724132
 +X765692 http://www.openstreetmap.org/?lat=36.559817&lon=98.681849
 +X498800 http://www.openstreetmap.org/?lat=36.525088&lon=98.614193
 +X830336 http://www.openstreetmap.org/?lat=36.453469&lon=98.631370
@@ -141,8 +139,6 @@ G109/G215 http://www.openstreetmap.org/?lat=36.329267&lon=94.814372
 +X399690 http://www.openstreetmap.org/?lat=36.080737&lon=94.819565
 +X778578 http://www.openstreetmap.org/?lat=36.000785&lon=94.823170
 +X546200 http://www.openstreetmap.org/?lat=36.001271&lon=94.829264
-+X531971 http://www.openstreetmap.org/?lat=35.999257&lon=94.829950
-+X153780 http://www.openstreetmap.org/?lat=35.997452&lon=94.824371
 +X140672 http://www.openstreetmap.org/?lat=35.943687&lon=94.811668
 +X523498 http://www.openstreetmap.org/?lat=35.898020&lon=94.745493
 +X441757 http://www.openstreetmap.org/?lat=35.913523&lon=94.697427
@@ -152,10 +148,8 @@ G109/G215 http://www.openstreetmap.org/?lat=36.329267&lon=94.814372
 +X835006 http://www.openstreetmap.org/?lat=35.878132&lon=94.574432
 +X723205 http://www.openstreetmap.org/?lat=35.893153&lon=94.402943
 +X392416 http://www.openstreetmap.org/?lat=35.880566&lon=94.357452
-+X149001 http://www.openstreetmap.org/?lat=35.831732&lon=94.351444
 +X249006 http://www.openstreetmap.org/?lat=35.758876&lon=94.336681
 +X815167 http://www.openstreetmap.org/?lat=35.743795&lon=94.313207
-+X538408 http://www.openstreetmap.org/?lat=35.732021&lon=94.212227
 +X193903 http://www.openstreetmap.org/?lat=35.710838&lon=94.060822
 +X127480 http://www.openstreetmap.org/?lat=35.669709&lon=94.048977
 +X663262 http://www.openstreetmap.org/?lat=35.632047&lon=94.070778
@@ -190,7 +184,6 @@ S308 http://www.openstreetmap.org/?lat=35.520072&lon=93.908129
 +X779781 http://www.openstreetmap.org/?lat=34.614562&lon=92.787437
 +X734942 http://www.openstreetmap.org/?lat=34.592661&lon=92.748470
 +X863036 http://www.openstreetmap.org/?lat=34.552660&lon=92.727013
-+X636770 http://www.openstreetmap.org/?lat=34.495522&lon=92.729416
 +X568468 http://www.openstreetmap.org/?lat=34.417106&lon=92.720661
 +X159985 http://www.openstreetmap.org/?lat=34.394728&lon=92.679977
 +X677121 http://www.openstreetmap.org/?lat=34.373904&lon=92.598782
@@ -206,8 +199,6 @@ Tan http://www.openstreetmap.org/?lat=34.216628&lon=92.441969
 +X831292 http://www.openstreetmap.org/?lat=33.894927&lon=92.365665
 +X223070 http://www.openstreetmap.org/?lat=33.855876&lon=92.360001
 +X779695 http://www.openstreetmap.org/?lat=33.793414&lon=92.289276
-+X868615 http://www.openstreetmap.org/?lat=33.755601&lon=92.192631
-+X605565 http://www.openstreetmap.org/?lat=33.730193&lon=92.114010
 +X201575 http://www.openstreetmap.org/?lat=33.711918&lon=92.079677
 +X862125 http://www.openstreetmap.org/?lat=33.683497&lon=92.053585
 +X844864 http://www.openstreetmap.org/?lat=33.650351&lon=92.056160
