@@ -4,6 +4,20 @@ This repository is for raw data used by the Travel Mapping project.
 
 Please help us improve our data by reporting any problems you notice with the data in [the project forum](https://forum.travelmapping.net/).
 
+## Fork datacheck
+
+On `eeffaann/HighwayData`, the **Highway data check** GitHub Actions workflow runs on every push to `master`, whenever a PR targeting this fork is opened, reopened, or updated with new commits, and can also be started manually from the Actions tab. Push runs check the pushed commit; PR runs check the proposed merge with the target branch. The workflow reports a failed check if datacheck fails. Opening a PR against `TravelMapping/HighwayData` does not trigger this fork's workflow.
+
+Keep this fork's `master` as an integration branch containing upstream highway data plus this fork's workflow and documentation. Bring upstream updates into it through a PR using a merge commit, not a squash merge or reset, so upstream history and fork-only files are preserved.
+
+For upstream contributions, create a clean feature branch from `upstream/master` with only the intended highway changes. Open a PR from that branch into this fork's `master` first, wait for `datacheck` to pass, and review its findings before opening or updating the upstream PR from the same feature branch. Do not submit this fork's entire `master` upstream or merge fork-only configuration into the contribution branch. If the fork PR needs an up-to-date branch, use a separate integration branch containing the feature and current fork `master`; keep the upstream contribution branch clean.
+
+Protect `master` by requiring a PR, a successful `datacheck` check from GitHub Actions, and an up-to-date PR branch before merging. Block force pushes and deletion, and use no bypass actors. Push checks alone do not prevent changes from entering `master`. Checks on a fork PR validate its proposed merge with the fork, not the exact feature commit or its eventual merge with upstream. Highway changes merged into the fork before upstream accepts them will temporarily make its data differ from upstream.
+
+The workflow runs Travel Mapping's Python site update program in highway-data-check mode (`-e -k`) on an `ubuntu-latest` GitHub-hosted runner, without SSH credentials or access to the Travel Mapping server. DataProcessing is pinned to a specific commit in the workflow for reproducibility; update that `ref` when adopting a newer checker. A nonzero exit or missing `!!! DATA CHECK SUCCESSFUL !!!` message fails the check. Nonfatal datacheck findings may still be present in a successful run: review `logs/datacheck.log` in the `datacheck-results` artifact, which also includes console output and statistics and is retained for 14 days.
+
+## Data organization
+
 In general, the project's data is in plain text files in two formats: CSV using semicolon separators, and WPT or "waypoint" files.  WPT files are required to contain only plain ASCII text.  Some CSV files can include non-ASCII characters, but should always use a UTF-8 encoding when such characters are used.
 
 The project's data is organized herein as follows:
