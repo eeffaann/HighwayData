@@ -16,10 +16,10 @@ X110 http://www.openstreetmap.org/?lat=30.476417&lon=120.433245
 S2_N http://www.openstreetmap.org/?lat=30.440016&lon=120.392990
 S101 http://www.openstreetmap.org/?lat=30.411374&lon=120.395222
 G92/S16 http://www.openstreetmap.org/?lat=30.394866&lon=120.395565
-G2501_N http://www.openstreetmap.org/?lat=30.326360&lon=120.366898
+13(G2504) http://www.openstreetmap.org/?lat=30.326360&lon=120.366898
 +X257193 http://www.openstreetmap.org/?lat=30.286420&lon=120.352221
-G92/S2 http://www.openstreetmap.org/?lat=30.223475&lon=120.359688
-S4 http://www.openstreetmap.org/?lat=30.213388&lon=120.356598
+24(G2504) http://www.openstreetmap.org/?lat=30.223475&lon=120.359688
+25(G2504) http://www.openstreetmap.org/?lat=30.213388&lon=120.356598
 G104 http://www.openstreetmap.org/?lat=30.177186&lon=120.342522
 HanExpy http://www.openstreetmap.org/?lat=30.128129&lon=120.304413
 G2501_S http://www.openstreetmap.org/?lat=30.088739&lon=120.288963
@@ -40,7 +40,7 @@ XaiRd http://www.openstreetmap.org/?lat=29.500872&lon=120.075932
 S210 http://www.openstreetmap.org/?lat=29.439747&lon=120.022802
 +X629621 http://www.openstreetmap.org/?lat=29.425694&lon=120.021257
 +X648273 http://www.openstreetmap.org/?lat=29.406255&lon=120.035076
-G4013 http://www.openstreetmap.org/?lat=29.404981&lon=120.035173
+S45 http://www.openstreetmap.org/?lat=29.404981&lon=120.035173
 273 http://www.openstreetmap.org/?lat=29.380380&lon=120.023532
 ShaLine http://www.openstreetmap.org/?lat=29.282281&lon=119.920235
 G1512 http://www.openstreetmap.org/?lat=29.241286&lon=119.868135

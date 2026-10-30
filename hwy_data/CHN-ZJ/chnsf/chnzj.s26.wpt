@@ -1,14 +1,4 @@
-G60 http://www.openstreetmap.org/?lat=29.404981&lon=120.035173
-HuMen http://www.openstreetmap.org/?lat=29.408319&lon=120.058512
-FuTian http://www.openstreetmap.org/?lat=29.392748&lon=120.110160
-SuXi http://www.openstreetmap.org/?lat=29.392220&lon=120.159103
-+X488469 http://www.openstreetmap.org/?lat=29.382458&lon=120.172663
-Nian http://www.openstreetmap.org/?lat=29.338483&lon=120.188219
-G1512_N http://www.openstreetmap.org/?lat=29.317839&lon=120.192855
-YinAve http://www.openstreetmap.org/?lat=29.315890&lon=120.260296
-+X146888 http://www.openstreetmap.org/?lat=29.326965&lon=120.310163
-Hua http://www.openstreetmap.org/?lat=29.351282&lon=120.368614
-G1512_S http://www.openstreetmap.org/?lat=29.357715&lon=120.382948
+G1512 http://www.openstreetmap.org/?lat=29.357715&lon=120.382948
 +X835602 http://www.openstreetmap.org/?lat=29.310341&lon=120.402426
 Ge http://www.openstreetmap.org/?lat=29.268719&lon=120.395871
 Hu http://www.openstreetmap.org/?lat=29.206983&lon=120.378254
