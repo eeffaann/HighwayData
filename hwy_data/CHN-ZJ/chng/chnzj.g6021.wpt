@@ -3,9 +3,9 @@ G25 http://www.openstreetmap.org/?lat=29.579578&lon=119.455075
 306(G4012) http://www.openstreetmap.org/?lat=29.523101&lon=119.326364
 +X822259 http://www.openstreetmap.org/?lat=29.469492&lon=119.306029
 +X685782 http://www.openstreetmap.org/?lat=29.416502&lon=119.266480
-G320 http://www.openstreetmap.org/?lat=29.399226&lon=119.238774
+323(G4012) http://www.openstreetmap.org/?lat=29.399226&lon=119.238774
 +X114639 http://www.openstreetmap.org/?lat=29.387694&lon=119.199274
-G4012_S http://www.openstreetmap.org/?lat=29.357267&lon=119.170946
+333(G4012) http://www.openstreetmap.org/?lat=29.357318&lon=119.170994
 +X737378 http://www.openstreetmap.org/?lat=29.351870&lon=119.142537
 50 http://www.openstreetmap.org/?lat=29.315169&lon=119.078773
 +X312651 http://www.openstreetmap.org/?lat=29.297449&lon=119.018511
