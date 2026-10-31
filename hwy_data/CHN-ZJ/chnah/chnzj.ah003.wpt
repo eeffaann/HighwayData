@@ -1,5 +1,5 @@
 SH/ZJ http://www.openstreetmap.org/?lat=30.878001&lon=121.016335
-S36 http://www.openstreetmap.org/?lat=30.852906&lon=120.989599
+68(G60) http://www.openstreetmap.org/?lat=30.852906&lon=120.989599
 76(G60) http://www.openstreetmap.org/?lat=30.798507&lon=120.944873
 80(G60) http://www.openstreetmap.org/?lat=30.772814&lon=120.909090
 S07 http://www.openstreetmap.org/?lat=30.742500&lon=120.865402
@@ -11,12 +11,13 @@ X103 http://www.openstreetmap.org/?lat=30.644632&lon=120.708418
 X109 http://www.openstreetmap.org/?lat=30.578889&lon=120.630226
 +X997922 http://www.openstreetmap.org/?lat=30.551470&lon=120.599499
 X810 http://www.openstreetmap.org/?lat=30.532989&lon=120.543880
+G9903_N http://www.openstreetmap.org/?lat=30.511823&lon=120.506191
 X110 http://www.openstreetmap.org/?lat=30.476417&lon=120.433245
 S2_N http://www.openstreetmap.org/?lat=30.440016&lon=120.392990
 S101 http://www.openstreetmap.org/?lat=30.411374&lon=120.395222
-G92/S16 http://www.openstreetmap.org/?lat=30.394866&lon=120.395565
+G92/S16 http://www.openstreetmap.org/?lat=30.394852&lon=120.395699
 13(G2504) http://www.openstreetmap.org/?lat=30.326360&lon=120.366898
-+X257193 http://www.openstreetmap.org/?lat=30.286420&lon=120.352221
+19(G2504) http://www.openstreetmap.org/?lat=30.279045&lon=120.351597
 24(G2504) http://www.openstreetmap.org/?lat=30.223475&lon=120.359688
 25(G2504) http://www.openstreetmap.org/?lat=30.213388&lon=120.356598
 30(G2504) http://www.openstreetmap.org/?lat=30.177186&lon=120.342522
@@ -39,10 +40,12 @@ XaiRd http://www.openstreetmap.org/?lat=29.500872&lon=120.075932
 S210 http://www.openstreetmap.org/?lat=29.439747&lon=120.022802
 +X629621 http://www.openstreetmap.org/?lat=29.425694&lon=120.021257
 +X648273 http://www.openstreetmap.org/?lat=29.406255&lon=120.035076
+S45 http://www.openstreetmap.org/?lat=29.404981&lon=120.035173
 AirRd http://www.openstreetmap.org/?lat=29.380380&lon=120.023532
 ShaLine http://www.openstreetmap.org/?lat=29.282281&lon=119.920235
 G1512 http://www.openstreetmap.org/?lat=29.241286&lon=119.868135
 JinAve http://www.openstreetmap.org/?lat=29.228478&lon=119.842858
+G60(311) http://www.openstreetmap.org/?lat=29.178056&lon=119.730055
 G25 http://www.openstreetmap.org/?lat=29.165934&lon=119.713726
 YinAve http://www.openstreetmap.org/?lat=29.145115&lon=119.651241
 +X884333 http://www.openstreetmap.org/?lat=29.131396&lon=119.584293
