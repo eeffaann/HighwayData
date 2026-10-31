@@ -1,7 +1,7 @@
 SH/ZJ http://www.openstreetmap.org/?lat=30.878001&lon=121.016335
 S36 http://www.openstreetmap.org/?lat=30.852906&lon=120.989599
-X108 http://www.openstreetmap.org/?lat=30.798658&lon=120.944796
-G92 http://www.openstreetmap.org/?lat=30.772814&lon=120.909090
+76(G60) http://www.openstreetmap.org/?lat=30.798507&lon=120.944873
+80(G60) http://www.openstreetmap.org/?lat=30.772814&lon=120.909090
 S07 http://www.openstreetmap.org/?lat=30.742500&lon=120.865402
 +X335890 http://www.openstreetmap.org/?lat=30.690847&lon=120.808325
 S11 http://www.openstreetmap.org/?lat=30.670400&lon=120.766697
