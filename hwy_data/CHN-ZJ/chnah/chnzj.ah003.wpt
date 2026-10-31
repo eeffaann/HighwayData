@@ -19,9 +19,9 @@ G92/S16 http://www.openstreetmap.org/?lat=30.394866&lon=120.395565
 +X257193 http://www.openstreetmap.org/?lat=30.286420&lon=120.352221
 24(G2504) http://www.openstreetmap.org/?lat=30.223475&lon=120.359688
 25(G2504) http://www.openstreetmap.org/?lat=30.213388&lon=120.356598
-G104 http://www.openstreetmap.org/?lat=30.177186&lon=120.342522
-HanExpy http://www.openstreetmap.org/?lat=30.128129&lon=120.304413
-G2501_S http://www.openstreetmap.org/?lat=30.088739&lon=120.288963
+30(G2504) http://www.openstreetmap.org/?lat=30.177186&lon=120.342522
+36(G2504) http://www.openstreetmap.org/?lat=30.128129&lon=120.304413
+185(G60) http://www.openstreetmap.org/?lat=30.088739&lon=120.288963
 X119 http://www.openstreetmap.org/?lat=30.055871&lon=120.264244
 +X464275 http://www.openstreetmap.org/?lat=29.998131&lon=120.258923
 DaniLine http://www.openstreetmap.org/?lat=29.969286&lon=120.238838
