@@ -1,4 +1,9 @@
 systemName;region;route;banner;abbrev;city;root;altRouteNames
+chnsf;CHN-CQ;S25;;;;chncq.s25;
+chnsf;CHN-CQ;S31;;;;chncq.s31;
+chnsf;CHN-CQ;S34;;;;chncq.s34;
+chnsf;CHN-CQ;S57;;;;chncq.s57;
+chnsf;CHN-CQ;S82;;;;chncq.s82;
 chnsf;CHN-FJ;S15;;;;chnfj.s15;
 chnsf;CHN-GS;S11;;;;chngs.s11;
 chnsf;CHN-GS;S31;;;;chngs.s31;
