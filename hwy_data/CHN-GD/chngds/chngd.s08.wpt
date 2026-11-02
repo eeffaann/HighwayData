@@ -1,8 +1,8 @@
 0 http://www.openstreetmap.org/?lat=23.194886&lon=113.484907
 3 http://www.openstreetmap.org/?lat=23.208376&lon=113.459265
 +X240562 http://www.openstreetmap.org/?lat=23.212596&lon=113.451304
-11 http://www.openstreetmap.org/?lat=23.212064&lon=113.378906
-16 http://www.openstreetmap.org/?lat=23.210920&lon=113.362727
+11 http://www.openstreetmap.org/?lat=23.213100&lon=113.382123
+16 http://www.openstreetmap.org/?lat=23.211034&lon=113.362672
 18 http://www.openstreetmap.org/?lat=23.213523&lon=113.336608
 19 http://www.openstreetmap.org/?lat=23.212951&lon=113.323803
 23 http://www.openstreetmap.org/?lat=23.224586&lon=113.293762
@@ -35,7 +35,7 @@
 118 http://www.openstreetmap.org/?lat=23.123153&lon=112.503862
 +X545231 http://www.openstreetmap.org/?lat=23.118733&lon=112.485924
 126 http://www.openstreetmap.org/?lat=23.138860&lon=112.424297
-+X510869 http://www.openstreetmap.org/?lat=23.177213&lon=112.375631
+131 http://www.openstreetmap.org/?lat=23.176942&lon=112.375571
 +X251977 http://www.openstreetmap.org/?lat=23.186129&lon=112.332931
 138 http://www.openstreetmap.org/?lat=23.197687&lon=112.311816
 S14_E http://www.openstreetmap.org/?lat=23.218552&lon=112.279158

@@ -44,7 +44,7 @@ S19 http://www.openstreetmap.org/?lat=23.586759&lon=115.694486
 +X527251 http://www.openstreetmap.org/?lat=23.516932&lon=114.598206
 1847(G35) http://www.openstreetmap.org/?lat=23.527163&lon=114.532471
 +X574174 http://www.openstreetmap.org/?lat=23.499931&lon=114.454704
-S27 http://www.openstreetmap.org/?lat=23.500246&lon=114.418994
+S27 http://www.openstreetmap.org/?lat=23.500537&lon=114.418840
 130(S2) http://www.openstreetmap.org/?lat=23.505362&lon=114.390680
 117(S2) http://www.openstreetmap.org/?lat=23.553917&lon=114.293514
 116(S2) http://www.openstreetmap.org/?lat=23.570753&lon=114.277050
@@ -69,7 +69,7 @@ G4 http://www.openstreetmap.org/?lat=23.785576&lon=113.513490
 G106 http://www.openstreetmap.org/?lat=23.786754&lon=113.481809
 +X986068 http://www.openstreetmap.org/?lat=23.770887&lon=113.424211
 LongShanBei http://www.openstreetmap.org/?lat=23.771519&lon=113.372379
-S1 http://www.openstreetmap.org/?lat=23.766807&lon=113.342855
+S1 http://www.openstreetmap.org/?lat=23.766995&lon=113.342867
 G240 http://www.openstreetmap.org/?lat=23.762722&lon=113.224494
 G0423 http://www.openstreetmap.org/?lat=23.763391&lon=113.194049
 +X234505 http://www.openstreetmap.org/?lat=23.758717&lon=113.147764
@@ -89,6 +89,7 @@ X441 http://www.openstreetmap.org/?lat=23.510442&lon=112.645523
 +X663440 http://www.openstreetmap.org/?lat=23.455215&lon=112.607460
 488 http://www.openstreetmap.org/?lat=23.416669&lon=112.555701
 Y370 http://www.openstreetmap.org/?lat=23.348839&lon=112.491069
+S57 http://www.openstreetmap.org/?lat=23.301064&lon=112.403052
 ShuiNan http://www.openstreetmap.org/?lat=23.286294&lon=112.370735
 +X627761 http://www.openstreetmap.org/?lat=23.273831&lon=112.336582
 S8_E http://www.openstreetmap.org/?lat=23.219379&lon=112.281714
@@ -110,14 +111,14 @@ G2518 http://www.openstreetmap.org/?lat=22.732302&lon=112.163662
 +X603488 http://www.openstreetmap.org/?lat=22.562101&lon=112.043811
 614 http://www.openstreetmap.org/?lat=22.538399&lon=111.999603
 622 http://www.openstreetmap.org/?lat=22.486711&lon=111.943538
-629 http://www.openstreetmap.org/?lat=22.454425&lon=111.883904
-S51_N http://www.openstreetmap.org/?lat=22.438719&lon=111.859358
+629 http://www.openstreetmap.org/?lat=22.454723&lon=111.883768
+632 http://www.openstreetmap.org/?lat=22.439997&lon=111.859564
 +X504160 http://www.openstreetmap.org/?lat=22.379040&lon=111.845025
-X600 http://www.openstreetmap.org/?lat=22.348649&lon=111.821844
-+X916508 http://www.openstreetmap.org/?lat=22.293782&lon=111.808634
-S26 http://www.openstreetmap.org/?lat=22.280562&lon=111.792666
-X601 http://www.openstreetmap.org/?lat=22.253034&lon=111.774046
-S51_S http://www.openstreetmap.org/?lat=22.189034&lon=111.722415
+116(S51) http://www.openstreetmap.org/?lat=22.348766&lon=111.822077
++X916508 http://www.openstreetmap.org/?lat=22.293018&lon=111.808623
+125(S51) http://www.openstreetmap.org/?lat=22.281974&lon=111.794595
+128(S51) http://www.openstreetmap.org/?lat=22.253176&lon=111.773905
+663 http://www.openstreetmap.org/?lat=22.188240&lon=111.721934
 +X842660 http://www.openstreetmap.org/?lat=22.162449&lon=111.680149
 ShiLu http://www.openstreetmap.org/?lat=22.148856&lon=111.641688
 TanShui http://www.openstreetmap.org/?lat=22.103288&lon=111.584610
@@ -141,7 +142,7 @@ SanJia http://www.openstreetmap.org/?lat=22.036563&lon=111.508559
 797 http://www.openstreetmap.org/?lat=21.734628&lon=110.625964
 +X669994 http://www.openstreetmap.org/?lat=21.717324&lon=110.594730
 810 http://www.openstreetmap.org/?lat=21.669830&lon=110.534348
-818 http://www.openstreetmap.org/?lat=21.606367&lon=110.495676
+818 http://www.openstreetmap.org/?lat=21.606745&lon=110.495763
 823 http://www.openstreetmap.org/?lat=21.566702&lon=110.511473
 832 http://www.openstreetmap.org/?lat=21.492646&lon=110.542288
 836 http://www.openstreetmap.org/?lat=21.455227&lon=110.543314

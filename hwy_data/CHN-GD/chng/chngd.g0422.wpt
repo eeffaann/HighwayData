@@ -11,7 +11,7 @@ G6011 http://www.openstreetmap.org/?lat=24.987147&lon=113.864064
 +X534778 http://www.openstreetmap.org/?lat=24.922714&lon=113.986502
 +X626820 http://www.openstreetmap.org/?lat=24.893911&lon=114.049416
 +X655975 http://www.openstreetmap.org/?lat=24.841970&lon=114.075594
-S9917 http://www.openstreetmap.org/?lat=24.798228&lon=114.080830
+733 http://www.openstreetmap.org/?lat=24.798223&lon=114.081007
 +X116249 http://www.openstreetmap.org/?lat=24.742856&lon=114.086151
 S344 http://www.openstreetmap.org/?lat=24.678803&lon=114.070144
 +X648138 http://www.openstreetmap.org/?lat=24.585529&lon=114.052849
@@ -30,12 +30,12 @@ G105 http://www.openstreetmap.org/?lat=24.125037&lon=114.297850
 G45_S http://www.openstreetmap.org/?lat=24.034510&lon=114.215364
 S244 http://www.openstreetmap.org/?lat=24.015656&lon=114.214253
 +X147328 http://www.openstreetmap.org/?lat=23.941468&lon=114.204254
-S27_N http://www.openstreetmap.org/?lat=23.904240&lon=114.206829
-+X359558 http://www.openstreetmap.org/?lat=23.873751&lon=114.204512
-858 http://www.openstreetmap.org/?lat=23.853225&lon=114.229531
+851 http://www.openstreetmap.org/?lat=23.910704&lon=114.207298
++X359558 http://www.openstreetmap.org/?lat=23.873633&lon=114.204733
+858 http://www.openstreetmap.org/?lat=23.853397&lon=114.229723
 869 http://www.openstreetmap.org/?lat=23.772149&lon=114.283047
 881 http://www.openstreetmap.org/?lat=23.671451&lon=114.301972
-S27_S http://www.openstreetmap.org/?lat=23.647217&lon=114.309504
+883 http://www.openstreetmap.org/?lat=23.645792&lon=114.308600
 LongJiang http://www.openstreetmap.org/?lat=23.629663&lon=114.293089
 +X857017 http://www.openstreetmap.org/?lat=23.601902&lon=114.280815
 S2 http://www.openstreetmap.org/?lat=23.553917&lon=114.293514

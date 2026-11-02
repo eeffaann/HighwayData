@@ -9,8 +9,8 @@
 42 http://www.openstreetmap.org/?lat=23.991036&lon=115.885849
 +X782174 http://www.openstreetmap.org/?lat=23.974489&lon=115.863276
 53 http://www.openstreetmap.org/?lat=23.922482&lon=115.820704
-G35(1697) http://www.openstreetmap.org/?lat=23.871710&lon=115.756669
-G35(1699) http://www.openstreetmap.org/?lat=23.844381&lon=115.753318
+1697(G35) http://www.openstreetmap.org/?lat=23.871710&lon=115.756669
+1699(G35) http://www.openstreetmap.org/?lat=23.844381&lon=115.753318
 +X508006 http://www.openstreetmap.org/?lat=23.761166&lon=115.724811
 78 http://www.openstreetmap.org/?lat=23.740490&lon=115.702429
 85 http://www.openstreetmap.org/?lat=23.676914&lon=115.680027
@@ -20,10 +20,10 @@ G35(1699) http://www.openstreetmap.org/?lat=23.844381&lon=115.753318
 ShangXia http://www.openstreetmap.org/?lat=23.491351&lon=115.686636
 XiaSha http://www.openstreetmap.org/?lat=23.390555&lon=115.723028
 G1523_E http://www.openstreetmap.org/?lat=23.332799&lon=115.715172
-G1523(1257) http://www.openstreetmap.org/?lat=23.310139&lon=115.699982
-G1523(1267) http://www.openstreetmap.org/?lat=23.244658&lon=115.635568
-G1523(1277) http://www.openstreetmap.org/?lat=23.191020&lon=115.562265
-G1523(1288) http://www.openstreetmap.org/?lat=23.105273&lon=115.517227
+1257(G1523) http://www.openstreetmap.org/?lat=23.310139&lon=115.699982
+1267(G1523) http://www.openstreetmap.org/?lat=23.244658&lon=115.635568
+1277(G1523) http://www.openstreetmap.org/?lat=23.191020&lon=115.562265
+1288(G1523) http://www.openstreetmap.org/?lat=23.105273&lon=115.517227
 G1523_W http://www.openstreetmap.org/?lat=23.059398&lon=115.487634
 LuFengXi http://www.openstreetmap.org/?lat=22.949541&lon=115.486908
 G15 http://www.openstreetmap.org/?lat=22.906795&lon=115.503452
