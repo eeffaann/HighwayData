@@ -11,8 +11,8 @@ Saved for continuing on another device on 2026-11-02.
   source qualifications, OSM publications and remaining holds.
 - [Inventory research](guangdong-inventory-reconciliation.md): dated evidence
   for missing/open roads, with later dispositions noted at the top.
-- Next pending checklist route: **44, S49 新台高速**. Both-direction video
-  links are already in the checklist.
+- Next pending checklist route: **48, S73 南沙港快速**. S49 and S53 were
+  confirmed complete on 2026-11-02; their edits and partner edits are saved locally.
 
 Fetch and check out the branch on the other device. Its committed WPT files
 are the portable source of truth; the previous device's browser storage,
@@ -41,7 +41,7 @@ broad search.
 
 ## Saved progress and decisions
 
-Checklist items 1-43, 62, 72 and 81 are complete. Item 25 is folded into the
+Checklist items 1-47, 62, 72 and 81 are complete. Item 25 is folded into the
 merged S16 (62). Item 97, RT10, is excluded by the user, not reviewed.
 Follow-ups 103/104/106 record the completed S79/S70/S57 additions.
 S47 (69) remains unconfirmed; the earlier completion report meant S27.
@@ -56,7 +56,7 @@ The latest complete backup was taken after the user renamed S1's southern
 `5` to `5(G324)`. Its 100 sources match the saved route files. The browser
 was empty when preparing this handoff, so no newer browser changes were
 available to capture. S1 remains complete. S81 received extensive edits but
-has not been confirmed fully reviewed.
+was subsequently confirmed fully reviewed by the user on 2026-11-02.
 
 ## Outstanding consistency follow-ups
 
@@ -95,9 +95,14 @@ Plain numbers belong to the route; qualified numbers use the named host.
 Hidden shaping points are never exit refs, and road-named endpoints do not
 justify inventing terminal exit numbers.
 
-S18 exits 13 and one direction at 37 retain construction-tagged ramp paths;
-55 has no clear outgoing split. No construction-tag cleanup was authorized
-for those S18 paths. Do not assume the nearby service-area split is 47 or
-that S57's separate BinHengNorth local-road split shares terminal 1.
+S18 exits 13 and the remaining direction at 37 were subsequently numbered
+in changeset 191393962 after the user's held-draft approval; exit 55 was
+explicitly skipped. Construction tags and geometry were unchanged; no
+construction-tag cleanup was authorized. Do not assume the nearby service-area
+split is 47. The user numbered S57's separate BinHengNorth split 1 in
+changeset 191393926 and changed terminal node 12228746541 to `2643A;2643B`.
+Preserve those OSM edits. The user subsequently changed the WPT source
+explicitly: S57 starts at road-labeled G55 (`23.508383,112.439401`) with
+separate exit 1 (`23.502451,112.439401`); G55 2643 matches the moved endpoint.
 S27 exit 180 is not needed; 59 is user-handled, with publication unverified.
 Leave that user draft alone. Preserve partner-road and geometry boundaries.

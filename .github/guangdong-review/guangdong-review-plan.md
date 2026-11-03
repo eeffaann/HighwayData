@@ -168,14 +168,172 @@ unchanged. Route files untouched. Audit/baseline/exact 25-node receipt:
 `gd-s18-s57-osm-20261102` in the publishing session. This supersedes the
 earlier S18 label 49 uncertainty; it does not authorize construction-tag cleanup.
 
+S18 held-draft follow-up, 2026-11-02: the publishing session reported the
+user's decision, "skip the55 the rest are good", and verified
+[changeset 191393962](https://www.openstreetmap.org/changeset/191393962).
+Added ref 13 and highway=motorway_junction at 7324945460/7242637275 and
+ref 37 at 8617507033. All three edits verified; exit 55 node 8628941872
+unchanged/skipped. No construction-tag or geometry edits. This supersedes
+the earlier numbering holds for 13/37, not construction-tag cleanup.
+The user separately published S57 BinHengNorth ref 1 at 11495660079 in
+[changeset 191393926](https://www.openstreetmap.org/changeset/191393926);
+the agent did not duplicate it. That user changeset also replaced terminal
+12228746541 ref 1 with `2643A;2643B`. Preserve the user's OSM edit; do not
+infer a WPT numbering-ownership change without clarification. Route sources
+unchanged. Receipt: `approved-review-verified-20261103.json` in the publishing
+session.
+
 Latest handoff, 2026-11-02: user confirmed S10 reviewed. Captured all 100
 loaded sources and saved S10 plus Jiangxi G45 edits before removing G45 from
 the editor as requested. Added the user's three-point Jiangxi S78 source as
 `CHN-JX/chnsf/chnjx.s78.wpt` and registered it in both China Select Freeways
 CSVs; its border point exactly matches S10. G45 remains saved in the repository.
 Pre-removal snapshot: `guangdong-editor-snapshot-20261102-081952-566422Z.json`.
-Latest recovery/sync baseline (100 loaded routes, G45 removed, S57 added):
-`guangdong-editor-snapshot-20261102-123044-439661Z.json`.
+Latest recovery/sync baseline (131 loaded routes, including G55 partners and NM S54):
+`guangdong-editor-snapshot-20261103-094124-156036Z.json`.
+G55/S54 progress save, 2026-11-03: saved further Inner Mongolia G55 edits
+and its G7 partner edit. Added user's seven-point NM S54 draft as
+`CHN-NM/chnsf/chnnm.s54.wpt`, registered in both chnsf CSVs, and renamed
+editor `route-1.wpt` to `chnnm.s54.wpt` without changing source. Endpoints
+match G55/G7 exactly. Preserved entered endpoint label 321 and G55_U point;
+no signage/ownership inference. All 131 current sources captured and verified.
+User removed seven AH companions from editor only; repository files retained.
+G55 still in progress; adding S54 is not independent full-review confirmation.
+G55 progress save, 2026-11-03: captured and verified every loaded source.
+Saved changes in Inner Mongolia G55 (numbering, point additions/removals,
+shaping) and Guangdong G55 (separate 2524B/2524A replacing S263_Fut).
+Other 103 sources already matched disk. Partial save only: G55 remains in
+progress; no route review completion or OSM handoff inferred.
+
+G55 partner import, 2026-11-03: added 32 registered connecting/shared-road
+pieces across NM/SX/HA/HB/HN, including AH companions. Matched current and
+original G55 coordinates and nearby named/reciprocal junctions; all Guangdong
+pieces were already loaded. Source manifest: `g55-intersecting-import.json`
+in original session artifacts, also used as an exact sync-helper allowlist.
+All existing drafts and independent naming preserved. A new user draft,
+`route-1.wpt`, appeared during preparation and was preserved without renaming.
+Editor now has 138 routes. Latest full recovery backup:
+`guangdong-editor-snapshot-20261103-092537-577200Z.json`.
+This is a recovery snapshot, not a new disk-sync baseline: last synchronized
+baseline remains `guangdong-editor-snapshot-20261103-092312-079363Z.json`.
+The anonymous draft was subsequently identified by the user as NM S54 and
+saved/registered under its own name (latest save above). Unmapped ordinary
+roads cannot be imported. Import does not mark partner routes reviewed.
+S13 completion, 2026-11-03: user confirmed "S13 looks good" and requested OSM
+handoff. Captured all 100 routes; saved S13 and shared G15/S14 junction edits.
+Full reviewed source sent to existing OSM session with ownership, endpoint,
+shaping and evidence caveats; publication pending. Exit 63 changed to 64.
+Southern S235 endpoint remains road-labeled, not an invented exit number.
+
+S13 OSM publication, 2026-11-03: publishing session reported verified
+[changeset 191404016](https://www.openstreetmap.org/changeset/191404016),
+18 nodes, two each for 10/23/30/34/36/43/55/62/64. User confirmed road
+signs/photos/video and approved 18 clear edits with holds in that session.
+Four previously untagged splits at 10/34 gained highway=motorway_junction;
+the other 14 changes were ref-only. Exit 8 remains held: mainline-to-ramp
+transition with no identified outgoing split. Extra ramp 6423384243 near 55
+remains untagged pending placement review; established Leiling exit nodes
+6423384196/6423384667 now have 55. No existing 63 found on targeted nodes;
+64 added without removing unrelated tags. Geometry, names, partner roads
+and held controls reported unchanged. Receipt:
+`gd-s13-osm-20261103/publication-verified.json` in publishing session.
+No route-file edits; these holds do not reopen S13's completed route review.
+
+User corrected the selection to **G55 二广高速**, not G78, on 2026-11-03.
+G55 item 85 is in progress; G78 item 94 remains pending.
+On user request, loaded the entire registered G55 into the editor: added
+CHN-NM, CHN-SX, CHN-HA, CHN-HB and CHN-HN sources from current worktree,
+preserving all 100 existing routes and independent naming. Now 105 routes;
+all six G55 provincial pieces loaded, northern Inner Mongolia piece selected.
+Non-Guangdong sections are not thereby marked reviewed. Subsequent progress
+save captured all 105; guarded sync now also allows exactly those five G55
+filenames and uses originalInputText as the first-save baseline for new imports.
+Requested available
+G55 footage from the video session. Available: 学水学水,
+https://www.bilibili.com/video/BV1hj411u7P3/ . API title claims
+二连浩特–佛山 full-route POV, southbound toward Foshan; wiki labels
+上行准全程. One part, 11414 seconds. Documented detours at 赛汗塔拉 and
+太原小店区 are outside Guangdong. No Guangdong-specific gaps documented,
+but footage, exact provincial endpoints and boundary timestamps uninspected;
+absence of gaps not verified. No additional Guangdong-only footage handy.
+The earlier G78 reference below is only
+a historical availability note, not the current review selection.
+Existing national G78 POV
+reference: 学水学水, https://www.bilibili.com/video/BV1Eq8szFE3v/ ,
+parts ?p=1 and ?p=2, each 7442 seconds. API confirms uploader/title claiming
+汕头–昆明 full-route POV, westbound. Guangdong boundaries, part split and
+timestamps unspecified; footage/gaps/signage not independently inspected.
+No separate Guangdong-only footage handy; no download or broad search.
+
+Next item 48, S73: existing wiki lists 玉衡1207 both-direction full coverage,
+[toward 南沙](https://www.bilibili.com/video/BV1mv5o61Eej/) and
+[toward 仑头](https://www.bilibili.com/video/BV1eEL66jEoG/).
+Alternatives toward 南沙: https://www.bilibili.com/video/BV1yu411Y7EP/ ,
+https://www.bilibili.com/video/BV18C4y1L7EA/ ,
+https://www.bilibili.com/video/BV1Rw41117Df/ .
+Direction/coverage/credits are wiki labels, not independently inspected or
+API-verified here; no gaps/signage timestamps handy. Wiki 仑头立交–新龙特大桥,
+67 km, not reconciled against mapped approximately 65.9 km. No download/search.
+S81 completion confirmed retrospectively on 2026-11-02: after it was suggested,
+the user said "already did it!" All 100 sources recaptured and verified;
+no further route-file differences. Earlier S81 edits are already saved.
+Next item 47, S13: video session has no suitable footage handy and the wiki
+has no links. Wiki extent 揭阳仙桥–惠来前詹, 72 km, is unverified against the
+mapped approximately 63.1 km; no coverage/direction established. No new search.
+On 2026-11-03 the user supplied S13 footage:
+https://www.bilibili.com/video/BV1GQnH6BE7g/ . Fetched description claims
+approximately 63 km and full-route POV, describes 揭阳市区到惠来海边 and
+connections with 甬莞/汕湛/沈海. Credits material provider @丛丶似雨若绫,
+not necessarily the publisher. Actual footage, exact endpoints/direction,
+gaps and signage not independently checked. Sent to video session for wiki
+addition; no download requested. This supersedes the earlier lack of a link.
+Video session confirmed the wiki entry saved: 凉白开4869发布 上行全程,
+丛丶似雨若绫摄. API confirmed uploader and staff photography credit; 上行全程
+is title metadata, not inspected coverage. Existing wiki endpoints/72 km
+were preserved; the approximately 63 km description did not replace them.
+S53 completion, 2026-11-02: user confirmed done and requested OSM handoff.
+All 100 sources captured; S53, S26, S47, S57 and G55 saved. S53 now has
+numbered endpoints 1/57, exit 2 replacing a former shaping point, and no
+former 5B point. Sent full finalized S53 source and ownership/topology caveats
+to the existing OSM session; no publication claimed here. Partner S47 now
+uses 90 at the S53 junction. S57 now has a G55-labeled endpoint at
+23.508383,112.439401 and separate exit 1 at 23.502451,112.439401; G55 2643
+matches the moved endpoint. This is an explicit user-source change, not an
+inference from the OSM terminal ref. S26's eastern endpoint now uses 7.
+No partner route completion inferred.
+
+S53 OSM publication, 2026-11-02: the publishing session reported verified
+[changeset 191394780](https://www.openstreetmap.org/changeset/191394780).
+Six ref-only changes: 2 at 11387244042/11387244026; 19 at
+9509771967/9509772097; 51 at 9509771657/9509771703. User confirmed
+road signs/photos/video and approved six clear edits in that session.
+Most other identified refs already match. Held node 11387348071 near reviewed
+exit 5: existing ref 8, downstream named GuzhenEast junction 11387348056
+and local-road/S53 ramp branches need resolution. No overwrite or inferred
+former 5B assignment. Partner node 9894831016 ref 89 near endpoint 1 was
+not changed as S53. Partners, geometry, names, other tags and 48 controls
+reported unchanged and verified. S57 context caused no further edits.
+Receipt: `gd-s53-osm-20261103/publication-verified.json` in publishing session.
+This placement hold does not reopen the completed S53 route review.
+
+Next item 46, S81: user-confirmed clockwise inner-ring footage:
+https://www.bilibili.com/video/BV1x1pd6bE83/ and
+https://www.bilibili.com/video/BV1EFMn6VEJf/ (description dates filming
+2026-02-12; publisher 广局茂段, credited photographer 玉衡1207).
+Opposite-direction wiki references:
+https://www.bilibili.com/video/BV13vtszCEc1 (东沙–东沙) and
+https://www.bilibili.com/video/BV1nH4y1L7WG/ (东沙–东沙–土华).
+Outer-ring/anticlockwise labels are wiki metadata only. Footage/signage not
+independently inspected; no checked gaps/timestamps. Wiki's 60 km is rounded
+coverage metadata, not a verified measurement. Availability check only.
+S49 completion, 2026-11-02: user said "49 looks good". Captured all 100
+loaded sources and saved six S49 waypoint-position edits plus the shared
+S26 junction at 22.360191,112.819118. Labels unchanged. Next pending item
+45 is S53. Existing wiki footage: https://www.bilibili.com/video/BV14KVwzPEzs/
+(永宁方向全程, listed 永宁–坦洲南 extent, rounded 57 km). Footage and gaps/
+signage timestamps have not been independently checked. Wiki attribution
+conflicts between 车行云南POV发布 and 空人me; neither filming credit is confirmed.
+Availability check only; no new download or broad search.
 Overnight S1 handoff saved nine files: S1, S14, S15, S18, S81, AH1,
 G0421, G15 and G1508. User confirmed only S1 complete in this handoff;
 do not infer full S81 review completion from its extensive edits. User then
@@ -256,10 +414,10 @@ from G45. Do not invent exit numbers or geometry to make the audit pass.
 41. [x] **S23 惠大高速** - user confirmed reviewed on 2026-11-02. Captured all 99 loaded sources and saved all eight affected files in the S23/S27 handoff. Sent exact reviewed source to the OSM publishing session. Snapshot: `guangdong-editor-snapshot-20261102-100347-259030Z.json`.
 42. [x] **S18 花莞高速** - user completion relayed by the OSM session on 2026-11-02. Captured all 100 loaded sources in the combined S18/S57 handoff, saved seven existing affected files and sent exact S18 source to OSM. Preserved label 49 between 23 and 31 and flagged it for sign/user confirmation before OSM publication. Snapshot: `guangdong-editor-snapshot-20261102-105713-201703Z.json`. Next video availability request sent for S43.
 43. [x] **S43 广珠西线高速** - user confirmed done on 2026-11-02. Captured all 100 loaded sources and saved S43, G2518 and G94 exit-label, endpoint, shaping and shared-position edits. Snapshot: `guangdong-editor-snapshot-20261102-112355-375322Z.json`. Related G94 primary label 345 is now duplicated and tracked separately; no speculative correction.
-44. [ ] **S49 新台高速** - 56.1 km; 0 unnumbered candidates; overlap partners: none detected.
-45. [ ] **S53 中山西环高速** - 56.6 km; 4 unnumbered candidates; overlap partners: none detected.
-46. [ ] **S81 广州环城高速** - 58.3 km; 3 unnumbered candidates; overlap partners: S15.
-47. [ ] **S13 揭惠高速** - 63.1 km; 3 unnumbered candidates; overlap partners: none detected.
+44. [x] **S49 新台高速** - user confirmed "49 looks good" on 2026-11-02. All 100 sources captured; S49 and shared S26 junction edits saved. Snapshot: `guangdong-editor-snapshot-20261103-003802-052471Z.json`.
+45. [x] **S53 中山西环高速** - user confirmed done on 2026-11-02. All 100 routes captured; saved S53/S26/S47/S57/G55. Full S53 source sent to OSM as requested, with route-ownership and endpoint cautions. Snapshot: `guangdong-editor-snapshot-20261103-021151-922938Z.json`.
+46. [x] **S81 广州环城高速** - user confirmed "already did it!" on 2026-11-02. Earlier route edits saved; recaptured all 100 sources with no new differences. Snapshot: `guangdong-editor-snapshot-20261103-021504-149825Z.json`.
+47. [x] **S13 揭惠高速** - user confirmed reviewed on 2026-11-03 and requested OSM handoff. All 100 routes captured; S13/G15/S14 edits saved. OSM session subsequently reported changeset 191404016, 18 nodes; exit 8 and an extra ramp near 55 held as detailed above. Snapshot: `guangdong-editor-snapshot-20261103-083704-988599Z.json`.
 48. [ ] **S73 南沙港快速** - 65.9 km; 9 unnumbered candidates; overlap partners: none detected.
 49. [ ] **S36 珠台高速** - 67.3 km; 6 unnumbered candidates; overlap partners: none detected.
 50. [ ] **S85 潮汕环线高速** - 68.6 km; 0 unnumbered candidates; overlap partners: G78.
