@@ -1,6 +1,6 @@
 GD/GX http://www.openstreetmap.org/?lat=23.284558&lon=111.351500
 +X701150 http://www.openstreetmap.org/?lat=23.285109&lon=111.334505
-+X762627 http://www.openstreetmap.org/?lat=23.347772&lon=111.296740
+G80(198) http://www.openstreetmap.org/?lat=23.341353&lon=111.300019
 +X774103 http://www.openstreetmap.org/?lat=23.372750&lon=111.266012
 G207 http://www.openstreetmap.org/?lat=23.380156&lon=111.233139
 G65_N http://www.openstreetmap.org/?lat=23.365186&lon=111.200180
@@ -14,6 +14,7 @@ GuiExpy http://www.openstreetmap.org/?lat=23.312306&lon=111.178036
 +X336040 http://www.openstreetmap.org/?lat=23.129389&lon=111.097441
 +X111966 http://www.openstreetmap.org/?lat=23.110760&lon=111.067657
 +X256679 http://www.openstreetmap.org/?lat=23.019392&lon=111.046114
+836 http://www.openstreetmap.org/?lat=22.991967&lon=111.014943
 +X590686 http://www.openstreetmap.org/?lat=22.980441&lon=110.998135
 Cen http://www.openstreetmap.org/?lat=22.944878&lon=110.994787
 +X460065 http://www.openstreetmap.org/?lat=22.922034&lon=110.965691

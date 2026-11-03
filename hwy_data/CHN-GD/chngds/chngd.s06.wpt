@@ -10,7 +10,8 @@ G94 http://www.openstreetmap.org/?lat=22.960092&lon=113.859212
 +X408732 http://www.openstreetmap.org/?lat=22.975799&lon=113.950602
 +X681317 http://www.openstreetmap.org/?lat=22.997034&lon=113.978004
 +X241989 http://www.openstreetmap.org/?lat=23.004738&lon=113.999851
-S29/S529 http://www.openstreetmap.org/?lat=22.998773&lon=114.023495
+63A http://www.openstreetmap.org/?lat=22.997988&lon=114.026971
+63C http://www.openstreetmap.org/?lat=22.998215&lon=114.027447
 ChangPingBei http://www.openstreetmap.org/?lat=22.995257&lon=114.094412
 +X707181 http://www.openstreetmap.org/?lat=23.009359&lon=114.123653
 +X227169 http://www.openstreetmap.org/?lat=23.038389&lon=114.142928
@@ -21,10 +22,9 @@ HuiQiaoExpy http://www.openstreetmap.org/?lat=23.063662&lon=114.291478
 97 http://www.openstreetmap.org/?lat=23.059437&lon=114.327761
 101 http://www.openstreetmap.org/?lat=23.044353&lon=114.368727
 106 http://www.openstreetmap.org/?lat=23.022453&lon=114.403572
-109 http://www.openstreetmap.org/?lat=23.018681&lon=114.433617
-23A(S23) http://www.openstreetmap.org/?lat=23.024231&lon=114.457562
-23(S23) http://www.openstreetmap.org/?lat=23.028832&lon=114.460974
-G234 http://www.openstreetmap.org/?lat=23.057818&lon=114.484105
+109 http://www.openstreetmap.org/?lat=23.017072&lon=114.429760
+23(S23) http://www.openstreetmap.org/?lat=23.025253&lon=114.458488
+18(S23) http://www.openstreetmap.org/?lat=23.057818&lon=114.484105
 S23_N http://www.openstreetmap.org/?lat=23.081350&lon=114.518565
 S21 http://www.openstreetmap.org/?lat=23.112141&lon=114.578002
 +X792852 http://www.openstreetmap.org/?lat=23.155197&lon=114.630748
