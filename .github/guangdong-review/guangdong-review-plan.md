@@ -1,10 +1,24 @@
 # Guangdong review plan
 
-Portable copy saved on 2026-11-02. Start with [the device handoff](README.md).
+Portable copy saved on 2026-11-03. Start with [the device handoff](README.md).
 This committed checklist is the cross-device progress record. References below
 to session tasks, IDs, snapshots and audit artifacts describe the original
 device's history; those resources are not included or needed to reload the
 committed WPT files. Keep this copy updated when continuing elsewhere.
+
+Latest bedtime handoff, 2026-11-03: all **149 loaded sources saved**, with
+Independent names and **GD S26 active**. Exact route set and active path:
+`editor-workspace.json`; prepare a portable Add Folder import using
+`restore-editor-workspace.py`. Local full recovery baseline:
+`guangdong-editor-snapshot-20261103-120115-173967Z.json`.
+New GX S30/S4001/S1511 saved under CHN-GX/chnsf and registered in both CSVs.
+GD S60's latest orientation/labels are exit1 at G55 followed by GD/GX.
+Saved later edits to GD G65/S8/S14/S26/S40/S60 and GX AH1/G65/G78/G80.
+S26 now extends west to point344 at22.378206,110.736220; full review/extension
+verification is not confirmed complete. GD G55 remains completed; no further
+partner-route completion inferred. No HN G0421 draft was created (user deferred).
+Preserve exact user-entered numbering/geometry; README lists unresolved label
+and shared-coordinate checks. Child AH3/G5516 changes still await integration.
 
 One working checklist, replacing the separate review queues. Routes are
 ordered shortest first as a practical starting order, not a strict ranking.
@@ -189,8 +203,78 @@ the editor as requested. Added the user's three-point Jiangxi S78 source as
 `CHN-JX/chnsf/chnjx.s78.wpt` and registered it in both China Select Freeways
 CSVs; its border point exactly matches S10. G45 remains saved in the repository.
 Pre-removal snapshot: `guangdong-editor-snapshot-20261102-081952-566422Z.json`.
-Latest recovery/sync baseline (132 loaded routes, including upstream G5511):
-`guangdong-editor-snapshot-20261103-095712-579788Z.json`.
+Latest recovery/sync baseline (146 loaded routes, including all 13 GX files):
+`guangdong-editor-snapshot-20261103-104131-796452Z.json`.
+GD G55 completed, 2026-11-03: user explicitly confirmed Guangdong review done.
+Captured all 133 existing drafts, saved changes to GD G55/G78/G80/S8/S14/S59/
+S9955 and HN G55, without marking those partner routes reviewed. User identified
+the new two-point draft as GD S60; saved and registered it in chngds and renamed
+its editor tab chngd.s60.wpt. S60 labels remain road-named GX/GD and G55.
+Loaded every GX waypoint file currently in this checkout (13: 12 national route
+pieces plus AH1), preserving all 133 existing sources and Independent names.
+This is not a claim that unrepresented Guangxi roads are complete or reviewed.
+G55 completion applies only to GD; other provinces remain partially reviewed.
+Upstream child consistency changes still await guarded parent reconciliation.
+NM G55 OSM receipt, 2026-11-03: publishing session reports independently verified
+https://www.openstreetmap.org/changeset/191410571 after user approval:
+30 nodes at 15 locations, refs 30/66/123/129/172/235/260/287/313/321/335/343/
+372/374/433. Geometry/other tags and 31 controls unchanged. Holds: 146 explicitly
+excluded; exit30 access=no node1930025698; exit38 distinct split1944748521;
+exit290 incomplete extra split13140127099; exit351 preserved existing351/351A
+refs and name351B on620718722 rather than inferring suffix. Existing18/38/132/
+290 refs untouched. GX S30 investigation underway; user confirmed designation
+and exits6/34/42/49 from signs/video in that session.
+GX S30 OSM receipt, 2026-11-03: publishing session reports independently verified
+https://www.openstreetmap.org/changeset/191411134 after explicit user approval,
+including both border splits. Corrected 102 existing mainline ways S60->S30
+(100 wholly GX plus GX portions of two cross-border tunnels), and added S30
+refs to GX relations20978141/20978142/20978143. Existing tunnelways1347897120/
+1347897121 retain GX portions; new GD S60 portions1574966018/1574966019 join
+GD relation17569731. New boundary vertices14344706935/14344706936 intersect the
+existing admin4 boundary845075124; WPT border center was not used as road geometry.
+Exit refs and motorway_junction tags:6 nodes12478006264/12069301626;
+34 nodes12473807688/12468175660;42 nodes12473807539/12473807520;
+49 node12468175616 (actual westbound terminal fork, not merge12468175613).
+Total113 modified objects plus4 created; 518 unchanged controls verified.
+No remaining GX placement holds in scope. Existing road alignment, node positions,
+names and GD refs preserved; GD relation order changed only by equivalent cyclic
+rotation. Unrelated construction tags and G65/G78/S1301 untouched; no open-status
+correction. OSM session made no HighwayData repository edits.
+NM-only upstream extraction, 2026-11-03: user requested a separate upstream PR
+for current NM changes, including exact Asian Highway concurrency and
+host-qualified exit labels (AH has no independent exit numbers). Captured all
+132 sources with no disk differences; frozen source commit 6072bb5581.
+Coordinated child `1e936efc-01a9-4a08-bc3f-57e16bc7e85b` owns extraction,
+AH3 reconciliation and upstream PR. Scope: NM G55/G7, new NM S54 and only its
+registration rows, plus directly coupled AH/reciprocal fixes. No Guangdong,
+JX S78, Hainan, boundary edits outside NM or session documents in upstream PR.
+Child must use clean upstream base, not whole mixed parent cherry-picks.
+Original child `1800858b-345f-4354-8358-8733b39a3353` failed to initialize
+because the app treated upstream/master as an origin branch; no task ran there.
+Replacement child's clean unpublished branch was transplanted onto upstream
+44aab1c400; parent branch and fork master were untouched.
+Published: [TravelMapping/HighwayData#9637](https://github.com/TravelMapping/HighwayData/pull/9637),
+open and ready against master, commit 0aa0da1e087c1afea86fb146d1c4f4fa6f777b29.
+Final scope is 13 files: NM G55/G7/S54/AH3 and G5516 endpoint, JX G45/S78,
+HA/HB/HN G55 paired boundaries, two chnsf CSVs, and only GD S10's border
+coordinate to match JX S78. This supersedes the original exclusions above.
+User requested removal of old-label aliases; no migration notice or updates.csv
+change. Focused and whitespace checks passed. Official upstream coordinate CI
+passed its complete hwy_data scan against 44aab1c400:
+https://github.com/TravelMapping/HighwayData/actions/runs/41618105053/job/125856541056 .
+Redundant local checker stopped after CI success. AH3/G55 share 51 identical
+visible/hidden points; AH3/G6 share 21. No full site-update/datacheck claimed.
+Parent editor remains unchanged: child AH3/G5516 and alias cleanup still need
+guarded reconciliation with live drafts. G55 review remains in progress.
+Label syntax corrected from the authoritative TM manual on 2026-11-03:
+non-exit-numbered AH concurrent with G55 uses **G55(18)**, not **18(G55)**.
+The latter syntax applies to an exit-numbered route borrowing another route's
+exit sequence. Reference:
+https://travelmapping.net/devel/manual/wayptlabels.php#exitconc_num_on_unnum .
+Child notified to correct the kickoff's erroneous example before publication.
+User additionally expanded scope in the child to miscellaneous non-GD changes;
+known source6072 includes JX S78/G45 and HA/HB/HN G55 boundary edits. Earlier
+JX exclusion is superseded by that user-directed expansion, not new parent edits.
 Upstream integration, 2026-11-03: user explicitly chose latest
 TravelMapping/HighwayData, not the separate China route-update branch.
 Fetched upstream/master at 44aab1c400. Preserved pre-merge drafts in
@@ -468,7 +552,7 @@ from G45. Do not invent exit numbers or geometry to make the audit pass.
 82. [ ] **S8 广佛肇高速** - 244.4 km; 9 unnumbered candidates; overlap partners: S2.
 83. [ ] **G0423 乐广高速** - 258.7 km; 3 unnumbered candidates; overlap partners: none detected.
 84. [ ] **G0421 许广高速** - 279.8 km; 27 unnumbered candidates; overlap partners: none detected.
-85. [ ] **G55 二广高速** - 284.5 km; 17 unnumbered candidates; overlap partners: none detected.
+85. [x] **G55 二广高速** - 284.5 km; 17 unnumbered candidates; overlap partners: none detected. GD review confirmed complete 2026-11-03.
 86. [ ] **G2518 深岑高速** - 288.4 km; 11 unnumbered candidates; overlap partners: G0425, G15, G94, S26, S47.
 87. [ ] **S6 广龙高速** - 356.3 km; 28 unnumbered candidates; overlap partners: S23.
 88. [ ] **G0422 武深高速** - 361.6 km; 20 unnumbered candidates; overlap partners: G45, S27.

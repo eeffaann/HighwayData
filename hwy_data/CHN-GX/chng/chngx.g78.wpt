@@ -5,11 +5,14 @@ S301 http://www.openstreetmap.org/?lat=23.982214&lon=111.922445
 +X901933 http://www.openstreetmap.org/?lat=24.209630&lon=111.677914
 +X718413 http://www.openstreetmap.org/?lat=24.255338&lon=111.655941
 +X110443 http://www.openstreetmap.org/?lat=24.351085&lon=111.639977
-+X504747 http://www.openstreetmap.org/?lat=24.371883&lon=111.628990
-G207 http://www.openstreetmap.org/?lat=24.368365&lon=111.582041
++X359552 http://www.openstreetmap.org/?lat=24.371717&lon=111.628919
+S60 http://www.openstreetmap.org/?lat=24.369118&lon=111.613989
+680 http://www.openstreetmap.org/?lat=24.368213&lon=111.582044
 GuaAve http://www.openstreetmap.org/?lat=24.368755&lon=111.486940
 +X904836 http://www.openstreetmap.org/?lat=24.379232&lon=111.349955
 +X628672 http://www.openstreetmap.org/?lat=24.401432&lon=111.276312
+713A http://www.openstreetmap.org/?lat=24.401843&lon=111.263044
+713B http://www.openstreetmap.org/?lat=24.401452&lon=111.257469
 G65_S http://www.openstreetmap.org/?lat=24.384235&lon=111.200867
 +X372390 http://www.openstreetmap.org/?lat=24.399634&lon=111.175117
 +X543665 http://www.openstreetmap.org/?lat=24.418705&lon=111.166019

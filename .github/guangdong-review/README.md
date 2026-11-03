@@ -1,15 +1,15 @@
 # Guangdong review handoff
 
-Saved for continuing on another device on 2026-11-02.
+Saved for continuing on another device on 2026-11-03.
 
-Latest local checkpoint, 2026-11-03: merged TravelMapping upstream/master
-44aab1c400 while preserving all current review edits. The live editor has
-132 routes: Guangdong expressways, all G55 provincial pieces and mapped
-partners, NM S54 and the now-complete upstream NM G5511. Seven AH companions
-were removed from the editor by the user, not deleted from the repository.
-G55 remains in progress. Consult the live checklist for the latest recovery
-baseline; the original reload instructions below describe the initial
-100-route Guangdong workspace, not this expanded workspace.
+Bedtime checkpoint: **149 loaded routes**, all saved to repository WPT files.
+Active route: **GD S26**, with the user's westward extension preserved; its
+full review is not confirmed complete. Naming mode: **Independent names**.
+The exact ordered route set is in [editor-workspace.json](editor-workspace.json).
+It includes Guangdong, all six G55 provincial pieces and mapped partners,
+NM S54/G5511, the 13 original GX pieces and new GX S30/S4001/S1511.
+Seven AH companions removed by the user remain on disk but are excluded from
+the reload manifest. No browser storage or old session artifacts are needed.
 
 ## Resume here
 
@@ -20,19 +20,26 @@ baseline; the original reload instructions below describe the initial
   source qualifications, OSM publications and remaining holds.
 - [Inventory research](guangdong-inventory-reconciliation.md): dated evidence
   for missing/open roads, with later dispositions noted at the top.
-- Next pending checklist route: **48, S73 南沙港快速**. S49 and S53 were
-  confirmed complete on 2026-11-02; their edits and partner edits are saved locally.
+- Resume the user's current **S26** work, not automatically the next checklist
+  item. The next pending item in the original order is **48, S73 南沙港快速**.
 
 Fetch and check out the branch on the other device. Its committed WPT files
 are the portable source of truth; the previous device's browser storage,
 session SQLite tasks and recovery snapshots are not required.
 
-Open [WPT Editor](https://eeffaann.github.io/wpteditor3/), choose **Independent
-names**, and use **Add Folder** to load `hwy_data/CHN-GD`. The last saved
-workspace contained all 100 Guangdong WPT files. If the editor already has
-unsaved work, preserve it before importing; do not clear or reload it.
-Jiangxi S78 and G45 are committed separately under `hwy_data/CHN-JX` and were
-not part of that final 100-route editor workspace.
+To restore the exact editor set, run from the checked-out repository:
+
+```powershell
+python .github\guangdong-review\restore-editor-workspace.py
+```
+
+The standard-library helper copies only the 149 manifest routes into a new
+temporary folder and prints its path. Open
+[WPT Editor](https://eeffaann.github.io/wpteditor3/), choose **Independent names**,
+use **Add Folder** on that folder, then select `CHN-GD/chngds/chngd.s26.wpt`.
+The helper does not modify repository sources. If Python is unavailable, the
+next coding session can use the manifest to prepare the same folder/import.
+Preserve any existing editor work first; do not clear or reload unsaved drafts.
 
 Whenever the user finishes a route, preserve **every loaded route**, including
 shared-node edits on other routes. Compare editor source with the import/save
@@ -50,7 +57,7 @@ broad search.
 
 ## Saved progress and decisions
 
-Checklist items 1-47, 62, 72 and 81 are complete. Item 25 is folded into the
+Checklist items 1-47, 62, 72, 81 and 85 (GD G55) are complete. Item 25 is folded into the
 merged S16 (62). Item 97, RT10, is excluded by the user, not reviewed.
 Follow-ups 103/104/106 record the completed S79/S70/S57 additions.
 S47 (69) remains unconfirmed; the earlier completion report meant S27.
@@ -61,11 +68,19 @@ is registered as S66. S57, S70 and S79 are registered in both provincial CSVs.
 The user's three-point Jiangxi S78 is registered in `chnsf`, not a new
 provincial system. Jiangxi G45's reciprocal junction edit is saved.
 
-The latest complete backup was taken after the user renamed S1's southern
-`5` to `5(G324)`. Its 100 sources match the saved route files. The browser
-was empty when preparing this handoff, so no newer browser changes were
-available to capture. S1 remains complete. S81 received extensive edits but
-was subsequently confirmed fully reviewed by the user on 2026-11-02.
+All 149 captured sources match the saved files. New GX S30 (12 points),
+S4001 (12 points) and S1511 (11 points) are registered in both `chnsf` CSVs;
+GD S60 is registered in `chngds`. S60's latest source is oriented from exit1
+at G55 south to its GD/GX border, preserved exactly as entered. S1's southern
+label remains `5(G324)`. No additional route completion is inferred from this save.
+
+The separate upstream [TravelMapping/HighwayData#9637](https://github.com/TravelMapping/HighwayData/pull/9637)
+contains NM G55/AH3, NM S54 and other non-GD fixes at
+`0aa0da1e087c1afea86fb146d1c4f4fa6f777b29`. Its official coordinate CI passed.
+This parent branch merged upstream `44aab1c400` but has **not** incorporated
+the child's later AH3/G5516 consistency changes. Reconcile those using source
+guards; do not blindly cherry-pick the whole mixed-scope commit or overwrite
+new HN/GD drafts. AH host exits use `G55(number)` / `G6(number)`.
 
 ## Outstanding consistency follow-ups
 
@@ -94,11 +109,29 @@ user; do not change it to `29`.
 
 Inventory work still pending: S78/S7811, S60, S26's westward extension,
 new interchange checks and reference discrepancies (items 101/102/105/107/108).
+S60 is now drafted and S26 has been extended in the saved source; final
+verification/closure of those follow-ups remains unconfirmed.
+
+Preserved draft issues to check, not silently corrected during this save:
+GX G78 still calls its S30 junction `S60`; the new GX G65 point is labeled
+`G65(836)` and GX G80 uses `G80(198)`, while AH1 has bare `198`.
+Verify host/route numbering before normalizing those labels. S8/S14's eastern
+junction remains separately positioned; GD G65/S40's moved interchange
+coordinates also differ. Preserve the user's geometry pending confirmation.
+HN G0421 has no WPT file in this checkout/history; user chose not to draft it.
+The northern GD G4/S1 points were checked against live OSM and left unchanged.
 
 ## OSM boundaries
 
 The route review and OSM publication are separate. Existing receipts and
 holds are in the checklist; this handoff does not authorize further uploads.
+Latest receipts: NM G55
+[191410571](https://www.openstreetmap.org/changeset/191410571), with exit146
+explicitly held and further node/suffix holds recorded in the checklist;
+GX S30 [191411134](https://www.openstreetmap.org/changeset/191411134), correcting
+GX S60->S30 refs/relations, approved border splits and exits6/34/42/49.
+No remaining GX placement holds in that OSM scope. S4001/S1511 were not
+automatically submitted for OSM edits.
 WPT junction coordinates are not automatically exact outgoing ramp nodes.
 Plain numbers belong to the route; qualified numbers use the named host.
 Hidden shaping points are never exit refs, and road-named endpoints do not
