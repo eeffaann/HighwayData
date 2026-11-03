@@ -189,8 +189,21 @@ the editor as requested. Added the user's three-point Jiangxi S78 source as
 `CHN-JX/chnsf/chnjx.s78.wpt` and registered it in both China Select Freeways
 CSVs; its border point exactly matches S10. G45 remains saved in the repository.
 Pre-removal snapshot: `guangdong-editor-snapshot-20261102-081952-566422Z.json`.
-Latest recovery/sync baseline (131 loaded routes, including G55 partners and NM S54):
-`guangdong-editor-snapshot-20261103-094124-156036Z.json`.
+Latest recovery/sync baseline (132 loaded routes, including upstream G5511):
+`guangdong-editor-snapshot-20261103-095712-579788Z.json`.
+Upstream integration, 2026-11-03: user explicitly chose latest
+TravelMapping/HighwayData, not the separate China route-update branch.
+Fetched upstream/master at 44aab1c400. Preserved pre-merge drafts in
+snapshot `guangdong-editor-snapshot-20261103-095347-270368Z.json` and commits
+b7f9b81359/a8647c3544 (including paired HA/HB/HN boundary edits).
+Resolved eight merge conflicts: retained current reviewed NM G55 exactly;
+used upstream CQ route coverage/aliases and Hainan G9811 endpoint removal;
+combined registrations without restoring future G1535 or losing S66,
+JX S78 or NM S54. Upstream already contains the completed G5511.
+Refreshed editor G6/G5516 sources from merged disk and added NM G5511,
+preserving all other current sources and independent naming; NM G55 active.
+All 132 loaded sources match disk. An upstream-origin blank line in
+POL/poldk/pol.dk007.wpt was left unchanged rather than fixing unrelated data.
 G55/S54 progress save, 2026-11-03: saved further Inner Mongolia G55 edits
 and its G7 partner edit. Added user's seven-point NM S54 draft as
 `CHN-NM/chnsf/chnnm.s54.wpt`, registered in both chnsf CSVs, and renamed

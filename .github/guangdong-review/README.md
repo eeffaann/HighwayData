@@ -2,6 +2,15 @@
 
 Saved for continuing on another device on 2026-11-02.
 
+Latest local checkpoint, 2026-11-03: merged TravelMapping upstream/master
+44aab1c400 while preserving all current review edits. The live editor has
+132 routes: Guangdong expressways, all G55 provincial pieces and mapped
+partners, NM S54 and the now-complete upstream NM G5511. Seven AH companions
+were removed from the editor by the user, not deleted from the repository.
+G55 remains in progress. Consult the live checklist for the latest recovery
+baseline; the original reload instructions below describe the initial
+100-route Guangdong workspace, not this expanded workspace.
+
 ## Resume here
 
 - Branch: `eeffaann-guangdong-review-strategy`.
