@@ -41,23 +41,30 @@ jobs:
           path: UserData
           persist-credentials: false
 
-      - name: Set up Python
-        uses: actions/setup-python@v7
-        with:
-          python-version: '3.11'
-
-      - name: Run datacheck
-        shell: bash
-        env:
-          PYTHONUTF8: '1'
+      - name: Install C++ build dependencies
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends clang libfmt-dev
+
+      - name: Build C++ datacheck
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p datacheck
+          make -C DataProcessing/siteupdate/cplusplus -j"$(nproc)" siteupdate 2>&1 | tee datacheck/build.log
+
+      - name: Run C++ datacheck
+        shell: bash
+        run: |
+          set -euo pipefail
           mkdir -p datacheck/logs/users datacheck/logs/nmpbyregion datacheck/stats
           {
             for repo in HighwayData DataProcessing UserData; do
               printf '%s @ ' "$repo"
               git -C "$repo" rev-parse HEAD
             done
-            python -u DataProcessing/siteupdate/python-teresco/siteupdate.py \
+            printf 'Checker: C++ siteupdate\n'
+            DataProcessing/siteupdate/cplusplus/siteupdate \
               -e -k \
               -w HighwayData \
               -u UserData/list_files \
