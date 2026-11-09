@@ -1,12 +1,12 @@
 G306_N http://www.openstreetmap.org/?lat=41.425485&lon=119.368907
-Re http://www.openstreetmap.org/?lat=41.398358&lon=119.394472
+S225_Re http://www.openstreetmap.org/?lat=41.398148&lon=119.394559
 +X906522 http://www.openstreetmap.org/?lat=41.385430&lon=119.405045
 +X574064 http://www.openstreetmap.org/?lat=41.373221&lon=119.426166
 +X635882 http://www.openstreetmap.org/?lat=41.351560&lon=119.430715
 +X625426 http://www.openstreetmap.org/?lat=41.339845&lon=119.444469
 +X944815 http://www.openstreetmap.org/?lat=41.323011&lon=119.440017
 +X151502 http://www.openstreetmap.org/?lat=41.310211&lon=119.445914
-Ling http://www.openstreetmap.org/?lat=41.292419&lon=119.445350
+G101/G306 http://www.openstreetmap.org/?lat=41.292419&lon=119.445350
 G25 http://www.openstreetmap.org/?lat=41.275630&lon=119.459866
 +X152200 http://www.openstreetmap.org/?lat=41.264879&lon=119.479420
 +X807510 http://www.openstreetmap.org/?lat=41.257606&lon=119.514256
@@ -15,7 +15,7 @@ G25 http://www.openstreetmap.org/?lat=41.275630&lon=119.459866
 +X160931 http://www.openstreetmap.org/?lat=41.213852&lon=119.555679
 +X691173 http://www.openstreetmap.org/?lat=41.207670&lon=119.587576
 +X555575 http://www.openstreetmap.org/?lat=41.200994&lon=119.601309
-Liu http://www.openstreetmap.org/?lat=41.183388&lon=119.607182
+S318 http://www.openstreetmap.org/?lat=41.183388&lon=119.607182
 +X799643 http://www.openstreetmap.org/?lat=41.172089&lon=119.613336
 +X421181 http://www.openstreetmap.org/?lat=41.145521&lon=119.639279
 +X361183 http://www.openstreetmap.org/?lat=41.129021&lon=119.688352
@@ -28,7 +28,7 @@ S207 http://www.openstreetmap.org/?lat=41.083400&lon=119.727115
 +X864964 http://www.openstreetmap.org/?lat=41.025418&lon=119.808482
 +X361424 http://www.openstreetmap.org/?lat=41.019073&lon=119.824341
 +X415562 http://www.openstreetmap.org/?lat=40.972244&lon=119.851639
-Shi http://www.openstreetmap.org/?lat=40.933412&lon=119.885779
++X798465 http://www.openstreetmap.org/?lat=40.938278&lon=119.882386
 +X181488 http://www.openstreetmap.org/?lat=40.913934&lon=119.891331
 +X396469 http://www.openstreetmap.org/?lat=40.900490&lon=119.884218
 S26 http://www.openstreetmap.org/?lat=40.847743&lon=119.880266
