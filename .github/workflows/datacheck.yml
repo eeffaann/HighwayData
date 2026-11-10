@@ -1,0 +1,83 @@
+name: Highway data check
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  datacheck:
+    if: github.repository == 'eeffaann/HighwayData'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out highway data
+        uses: actions/checkout@v7
+        with:
+          path: HighwayData
+          persist-credentials: false
+
+      - name: Check out DataProcessing
+        uses: actions/checkout@v7
+        with:
+          repository: TravelMapping/DataProcessing
+          ref: 92db014f52f9e6021aba5f697cc98d9daa924e0f
+          path: DataProcessing
+          persist-credentials: false
+
+      - name: Check out UserData
+        uses: actions/checkout@v7
+        with:
+          repository: TravelMapping/UserData
+          path: UserData
+          persist-credentials: false
+
+      - name: Install C++ build dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends clang libc++-dev libc++abi-dev libfmt-dev
+
+      - name: Build C++ datacheck
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p datacheck
+          # Match the libc++ standard library used by the official FreeBSD build.
+          make -C DataProcessing/siteupdate/cplusplus -j"$(nproc)" CXX="clang++ -stdlib=libc++" siteupdate 2>&1 | tee datacheck/build.log
+
+      - name: Run C++ datacheck
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p datacheck/logs/users datacheck/logs/nmpbyregion datacheck/stats
+          {
+            for repo in HighwayData DataProcessing UserData; do
+              printf '%s @ ' "$repo"
+              git -C "$repo" rev-parse HEAD
+            done
+            printf 'Checker: C++ siteupdate\n'
+            DataProcessing/siteupdate/cplusplus/siteupdate \
+              -e -k \
+              -w HighwayData \
+              -u UserData/list_files \
+              -l datacheck/logs \
+              -c datacheck/stats
+          } 2>&1 | tee datacheck/console.log
+          grep -Fq '!!! DATA CHECK SUCCESSFUL !!!' datacheck/console.log
+
+      - name: Upload datacheck results
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: datacheck-results
+          path: datacheck/
+          retention-days: 14
