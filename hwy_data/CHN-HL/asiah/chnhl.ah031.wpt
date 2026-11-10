@@ -50,15 +50,15 @@ SuiRd http://www.openstreetmap.org/?lat=48.250798&lon=126.597090
 +X000049 http://www.openstreetmap.org/?lat=48.193532&lon=126.731551
 G1116 http://www.openstreetmap.org/?lat=48.140425&lon=126.733475
 +X000051 http://www.openstreetmap.org/?lat=48.097938&lon=126.757578
-180(G1117) http://www.openstreetmap.org/?lat=48.068788&lon=126.753387
+180(G1117) http://www.openstreetmap.org/?lat=48.068781&lon=126.753179
 +X000052 http://www.openstreetmap.org/?lat=48.041325&lon=126.764301
 +X000053 http://www.openstreetmap.org/?lat=47.979227&lon=126.756319
 +X000054 http://www.openstreetmap.org/?lat=47.957034&lon=126.773759
 +X000055 http://www.openstreetmap.org/?lat=47.907388&lon=126.761664
-146(G1117) http://www.openstreetmap.org/?lat=47.772445&lon=126.792719
+146(G1117) http://www.openstreetmap.org/?lat=47.772470&lon=126.792785
 +X000058 http://www.openstreetmap.org/?lat=47.707288&lon=126.829924
 +X000060 http://www.openstreetmap.org/?lat=47.677433&lon=126.860686
-130(G1117) http://www.openstreetmap.org/?lat=47.646107&lon=126.870246
+130(G1117) http://www.openstreetmap.org/?lat=47.646157&lon=126.870193
 +X000062 http://www.openstreetmap.org/?lat=47.606002&lon=126.906959
 +X000063 http://www.openstreetmap.org/?lat=47.550870&lon=126.922707
 +X000064 http://www.openstreetmap.org/?lat=47.513310&lon=126.914236
@@ -66,20 +66,20 @@ G1116 http://www.openstreetmap.org/?lat=48.140425&lon=126.733475
 106(G1117) http://www.openstreetmap.org/?lat=47.442587&lon=126.885417
 +X000066 http://www.openstreetmap.org/?lat=47.393132&lon=126.912364
 +X000068 http://www.openstreetmap.org/?lat=47.292519&lon=126.905433
-82(G1117) http://www.openstreetmap.org/?lat=47.234955&lon=126.931057
+82(G1117) http://www.openstreetmap.org/?lat=47.235022&lon=126.931074
 +X000072 http://www.openstreetmap.org/?lat=47.092760&lon=126.877618
 +X000073 http://www.openstreetmap.org/?lat=47.057240&lon=126.847032
-45(G1117) http://www.openstreetmap.org/?lat=46.914846&lon=126.831901
+45(G1117) http://www.openstreetmap.org/?lat=46.914913&lon=126.831913
 +X000074 http://www.openstreetmap.org/?lat=46.780292&lon=126.840011
 +X000075 http://www.openstreetmap.org/?lat=46.734896&lon=126.868736
 +X000076 http://www.openstreetmap.org/?lat=46.692594&lon=126.870786
 S18 http://www.openstreetmap.org/?lat=46.669539&lon=126.887004
-SuiHuaXi +12(G1117) http://www.openstreetmap.org/?lat=46.623623&lon=126.889858
+12(G1117) http://www.openstreetmap.org/?lat=46.623388&lon=126.889902
 +X000078 http://www.openstreetmap.org/?lat=46.596726&lon=126.894850
 +X000080 http://www.openstreetmap.org/?lat=46.550870&lon=126.944286
-G1117 http://www.openstreetmap.org/?lat=46.545166&lon=126.971054
+G1117 http://www.openstreetmap.org/?lat=46.545370&lon=126.970985
 +X000082 http://www.openstreetmap.org/?lat=46.488708&lon=126.968087
-Hon http://www.openstreetmap.org/?lat=46.419858&lon=126.937532
+S312 http://www.openstreetmap.org/?lat=46.419858&lon=126.937532
 +X000084 http://www.openstreetmap.org/?lat=46.384202&lon=126.928869
 +X000086 http://www.openstreetmap.org/?lat=46.328086&lon=126.888164
 +X000087 http://www.openstreetmap.org/?lat=46.293038&lon=126.843099
@@ -89,8 +89,8 @@ Kan http://www.openstreetmap.org/?lat=46.182014&lon=126.755829
 +X000090 http://www.openstreetmap.org/?lat=46.133593&lon=126.706708
 +X000092 http://www.openstreetmap.org/?lat=46.100905&lon=126.655525
 +X000094 http://www.openstreetmap.org/?lat=46.047524&lon=126.627191
-444(G1111) http://www.openstreetmap.org/?lat=46.023997&lon=126.596038
-453(G1111) http://www.openstreetmap.org/?lat=45.956499&lon=126.535273
+444(G1111) http://www.openstreetmap.org/?lat=46.024041&lon=126.596147
+453(G1111) http://www.openstreetmap.org/?lat=45.956237&lon=126.535111
 +X000098 http://www.openstreetmap.org/?lat=45.897512&lon=126.522076
 46(G1001) +45(G1001) http://www.openstreetmap.org/?lat=45.857746&lon=126.528726
 43(G1001) +42(G1001) http://www.openstreetmap.org/?lat=45.846021&lon=126.494350
