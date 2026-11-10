@@ -16,7 +16,7 @@ G222_Bei http://www.openstreetmap.org/?lat=45.161117&lon=127.022686
 +X000013 http://www.openstreetmap.org/?lat=45.209003&lon=127.016746
 +X000014 http://www.openstreetmap.org/?lat=45.260153&lon=126.948810
 222 http://www.openstreetmap.org/?lat=45.308143&lon=126.916664
-232 +232A +232B +G9901 http://www.openstreetmap.org/?lat=45.373087&lon=126.831914
+232 http://www.openstreetmap.org/?lat=45.373087&lon=126.831914
 +X000016 http://www.openstreetmap.org/?lat=45.411435&lon=126.794544
 242 http://www.openstreetmap.org/?lat=45.452959&lon=126.782765
 +X000017 http://www.openstreetmap.org/?lat=45.506984&lon=126.759445

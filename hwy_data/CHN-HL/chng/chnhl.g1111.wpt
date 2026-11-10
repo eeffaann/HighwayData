@@ -1,7 +1,4 @@
-S204 http://www.openstreetmap.org/?lat=47.711494&lon=128.837786
-+X597181 http://www.openstreetmap.org/?lat=47.698931&lon=128.756052
-+X814937 http://www.openstreetmap.org/?lat=47.706572&lon=128.734821
-YiChun http://www.openstreetmap.org/?lat=47.703409&lon=128.708219
+Yi http://www.openstreetmap.org/?lat=47.704824&lon=128.710351
 G222_Cui http://www.openstreetmap.org/?lat=47.672827&lon=128.606550
 +X496772 http://www.openstreetmap.org/?lat=47.609806&lon=128.503068
 G1116 http://www.openstreetmap.org/?lat=47.591752&lon=128.495836
@@ -28,7 +25,7 @@ G222_Tie http://www.openstreetmap.org/?lat=47.020933&lon=128.048583
 +X419950 http://www.openstreetmap.org/?lat=46.981360&lon=127.912148
 +X434156 http://www.openstreetmap.org/?lat=46.965070&lon=127.888190
 +X112347 http://www.openstreetmap.org/?lat=46.948845&lon=127.834588
-ShuangFeng http://www.openstreetmap.org/?lat=46.942797&lon=127.777452
+Shu http://www.openstreetmap.org/?lat=46.942797&lon=127.777452
 +X799008 http://www.openstreetmap.org/?lat=46.922877&lon=127.721703
 +X380635 http://www.openstreetmap.org/?lat=46.862469&lon=127.618417
 +X935440 http://www.openstreetmap.org/?lat=46.838448&lon=127.538465
@@ -39,12 +36,12 @@ ShuangFeng http://www.openstreetmap.org/?lat=46.942797&lon=127.777452
 +X243986 http://www.openstreetmap.org/?lat=46.771415&lon=127.231388
 +X509492 http://www.openstreetmap.org/?lat=46.735033&lon=127.162427
 +X750633 http://www.openstreetmap.org/?lat=46.705924&lon=127.132457
-360 http://www.openstreetmap.org/?lat=46.680419&lon=127.047529
+360 http://www.openstreetmap.org/?lat=46.680246&lon=127.047450
 +X986955 http://www.openstreetmap.org/?lat=46.641524&lon=127.056068
 +X505770 http://www.openstreetmap.org/?lat=46.555767&lon=127.004899
-G1117 http://www.openstreetmap.org/?lat=46.545166&lon=126.971054
+G1117 http://www.openstreetmap.org/?lat=46.545370&lon=126.970985
 +X612888 http://www.openstreetmap.org/?lat=46.488708&lon=126.968087
-Hon http://www.openstreetmap.org/?lat=46.419858&lon=126.937532
+S312 http://www.openstreetmap.org/?lat=46.419858&lon=126.937532
 +X902607 http://www.openstreetmap.org/?lat=46.384202&lon=126.928869
 +X250057 http://www.openstreetmap.org/?lat=46.328086&lon=126.888164
 +X595392 http://www.openstreetmap.org/?lat=46.293038&lon=126.843099
@@ -54,7 +51,7 @@ Kan http://www.openstreetmap.org/?lat=46.182014&lon=126.755829
 +X220224 http://www.openstreetmap.org/?lat=46.133593&lon=126.706708
 +X331471 http://www.openstreetmap.org/?lat=46.100905&lon=126.655525
 +X729029 http://www.openstreetmap.org/?lat=46.047524&lon=126.627191
-444 http://www.openstreetmap.org/?lat=46.023997&lon=126.596038
-453 http://www.openstreetmap.org/?lat=45.956499&lon=126.535273
+444 http://www.openstreetmap.org/?lat=46.024041&lon=126.596147
+453 http://www.openstreetmap.org/?lat=45.956237&lon=126.535111
 +X882966 http://www.openstreetmap.org/?lat=45.897512&lon=126.522076
 G1001 http://www.openstreetmap.org/?lat=45.857746&lon=126.528726
