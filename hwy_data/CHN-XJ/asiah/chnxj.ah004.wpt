@@ -88,7 +88,7 @@ OutRingRd_S http://www.openstreetmap.org/?lat=43.778500&lon=87.604594
 ZhuRd http://www.openstreetmap.org/?lat=43.769513&lon=87.601547
 Yan http://www.openstreetmap.org/?lat=43.738236&lon=87.590947
 S106 http://www.openstreetmap.org/?lat=43.703188&lon=87.581034
-G30/G3001 http://www.openstreetmap.org/?lat=43.678301&lon=87.567515
+G30/G3003 +G30/G3001 http://www.openstreetmap.org/?lat=43.678411&lon=87.567486
 S116 http://www.openstreetmap.org/?lat=43.642970&lon=87.575283
 LanRd http://www.openstreetmap.org/?lat=43.635081&lon=87.581205
 S103 http://www.openstreetmap.org/?lat=43.628248&lon=87.636137

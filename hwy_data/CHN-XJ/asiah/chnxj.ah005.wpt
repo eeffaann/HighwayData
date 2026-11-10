@@ -101,7 +101,7 @@ XinRd http://www.openstreetmap.org/?lat=43.624582&lon=87.716732
 S103 http://www.openstreetmap.org/?lat=43.628248&lon=87.636137
 LanRd http://www.openstreetmap.org/?lat=43.635081&lon=87.581205
 S116 http://www.openstreetmap.org/?lat=43.642970&lon=87.575283
-G3001 http://www.openstreetmap.org/?lat=43.678301&lon=87.567515
+G3003 +G3001 http://www.openstreetmap.org/?lat=43.678411&lon=87.567486
 +X334843 http://www.openstreetmap.org/?lat=43.681777&lon=87.527905
 G216_S http://www.openstreetmap.org/?lat=43.722482&lon=87.492027
 +X800839 http://www.openstreetmap.org/?lat=43.744871&lon=87.473316
