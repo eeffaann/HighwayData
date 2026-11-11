@@ -6,6 +6,12 @@ on:
       - master
   pull_request:
   workflow_dispatch:
+    inputs:
+      data_ref:
+        description: 'HighwayData branch or commit to check (blank uses the workflow ref)'
+        required: false
+        default: ''
+        type: string
 
 permissions:
   contents: read
@@ -17,13 +23,14 @@ concurrency:
 jobs:
   datacheck:
     if: github.repository == 'eeffaann/HighwayData'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     timeout-minutes: 30
     steps:
       - name: Check out highway data
         uses: actions/checkout@v7
         with:
           path: HighwayData
+          ref: ${{ inputs.data_ref || github.sha }}
           persist-credentials: false
 
       - name: Check out DataProcessing
@@ -41,24 +48,27 @@ jobs:
           path: UserData
           persist-credentials: false
 
-      - name: Set up Python
-        uses: actions/setup-python@v7
-        with:
-          python-version: '3.11'
+      - name: Install C++ datacheck dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libfmt-dev
+
+      - name: Build C++ datacheck
+        run: make -C DataProcessing/siteupdate/cplusplus -j2 siteupdate
 
       - name: Run datacheck
         shell: bash
-        env:
-          PYTHONUTF8: '1'
         run: |
           mkdir -p datacheck/logs/users datacheck/logs/nmpbyregion datacheck/stats
+          # The pinned C++ checker still expects the former data directory name.
+          ln -s hwy_data HighwayData/data
           {
             for repo in HighwayData DataProcessing UserData; do
               printf '%s @ ' "$repo"
               git -C "$repo" rev-parse HEAD
             done
-            python -u DataProcessing/siteupdate/python-teresco/siteupdate.py \
-              -e -k \
+            DataProcessing/siteupdate/cplusplus/siteupdate \
+              -e -k -t 2 \
               -w HighwayData \
               -u UserData/list_files \
               -l datacheck/logs \
