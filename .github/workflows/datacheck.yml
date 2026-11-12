@@ -39,8 +39,12 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p datacheck/logs/users datacheck/logs/nmpbyregion datacheck/stats
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libfmt-dev
           clang++ --version | tee datacheck/compiler.log
-          make -C DataProcessing/siteupdate/cplusplus -j2 siteupdate 2>&1 | tee datacheck/build.log
+          make -C DataProcessing/siteupdate/cplusplus -j2 siteupdate \
+            CXXFLAGS='-O3 -std=c++11 -include string -isystem /usr/local/include -isystem /opt/local/include -Wno-comment -Wno-dangling-else -Wno-logical-op-parentheses' \
+            2>&1 | tee datacheck/build.log
 
       - name: Run C++ datacheck on every highway system and traveler list
         shell: bash
