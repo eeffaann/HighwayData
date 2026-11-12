@@ -43,7 +43,7 @@ jobs:
           sudo apt-get install -y --no-install-recommends libfmt-dev
           clang++ --version | tee datacheck/compiler.log
           make -C DataProcessing/siteupdate/cplusplus -j2 siteupdate \
-            CXXFLAGS='-O3 -std=c++11 -include string -isystem /usr/local/include -isystem /opt/local/include -Wno-comment -Wno-dangling-else -Wno-logical-op-parentheses' \
+            CXXFLAGS='-O3 -std=c++11 -include string -include cstdint -isystem /usr/local/include -isystem /opt/local/include -Wno-comment -Wno-dangling-else -Wno-logical-op-parentheses' \
             2>&1 | tee datacheck/build.log
 
       - name: Run C++ datacheck on every highway system and traveler list
