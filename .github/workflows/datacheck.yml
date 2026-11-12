@@ -15,7 +15,7 @@ jobs:
       - name: Check out exact upstream PR head
         uses: actions/checkout@v7
         with:
-          ref: 151b958b6ca9ac74f3021294756d36191d001d27
+          ref: 889a76a9d3f54bf37db8e030152259515bc32a39
           path: HighwayData
           persist-credentials: false
 
@@ -55,7 +55,7 @@ jobs:
               printf '%s @ ' "$repo"
               git -C "$repo" rev-parse HEAD
             done
-            test "$(git -C HighwayData rev-parse HEAD)" = 151b958b6ca9ac74f3021294756d36191d001d27
+            test "$(git -C HighwayData rev-parse HEAD)" = 889a76a9d3f54bf37db8e030152259515bc32a39
             DataProcessing/siteupdate/cplusplus/siteupdate \
               -e -k -t 2 \
               -w "$GITHUB_WORKSPACE/HighwayData" \
