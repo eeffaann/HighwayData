@@ -1,0 +1,70 @@
+name: Highway data check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  datacheck:
+    if: github.repository == 'eeffaann/HighwayData'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out exact upstream PR head
+        uses: actions/checkout@v7
+        with:
+          ref: 151b958b6ca9ac74f3021294756d36191d001d27
+          path: HighwayData
+          persist-credentials: false
+
+      - name: Check out DataProcessing
+        uses: actions/checkout@v7
+        with:
+          repository: TravelMapping/DataProcessing
+          ref: 92db014f52f9e6021aba5f697cc98d9daa924e0f
+          path: DataProcessing
+          persist-credentials: false
+
+      - name: Check out real traveler lists
+        uses: actions/checkout@v7
+        with:
+          repository: TravelMapping/UserData
+          path: UserData
+          persist-credentials: false
+
+      - name: Build C++ datacheck
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p datacheck/logs/users datacheck/logs/nmpbyregion datacheck/stats
+          clang++ --version | tee datacheck/compiler.log
+          make -C DataProcessing/siteupdate/cplusplus -j2 siteupdate 2>&1 | tee datacheck/build.log
+
+      - name: Run C++ datacheck on every highway system and traveler list
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            for repo in HighwayData DataProcessing UserData; do
+              printf '%s @ ' "$repo"
+              git -C "$repo" rev-parse HEAD
+            done
+            test "$(git -C HighwayData rev-parse HEAD)" = 151b958b6ca9ac74f3021294756d36191d001d27
+            DataProcessing/siteupdate/cplusplus/siteupdate \
+              -e -k -t 2 \
+              -w "$GITHUB_WORKSPACE/HighwayData" \
+              -u "$GITHUB_WORKSPACE/UserData/list_files" \
+              -l "$GITHUB_WORKSPACE/datacheck/logs" \
+              -c "$GITHUB_WORKSPACE/datacheck/stats"
+          } 2>&1 | tee datacheck/console.log
+          grep -Fq '!!! DATA CHECK SUCCESSFUL !!!' datacheck/console.log
+
+      - name: Upload C++ datacheck evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: cpp-datacheck-results
+          path: datacheck/
+          retention-days: 14
